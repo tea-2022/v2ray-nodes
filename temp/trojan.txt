@@ -1,4 +1,4 @@
-trojan://hwgfw.xyz@127.0.0.1:10808#%E6%9B%B4%E6%96%B0%E4%BA%8E%3A04-11%2008%3A14%3A19%20by%20hwgfw.xyz
+trojan://hwgfw.xyz@127.0.0.1:10808#%E6%9B%B4%E6%96%B0%E4%BA%8E%3A04-11%2008%3A19%3A28%20by%20hwgfw.xyz
 trojan://ssrsub@t09.ssrsub.one:443#github.com/colatiger%20-%20%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E5%B7%9E%E7%BA%BD%E7%BA%A6BuyVM%2043
 trojan://ssrsub@t11.ssrsub.one:443#github.com/colatiger%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%2052
 trojan://fastssh.com@sg1.vless.co:443#github.com/colatiger%20-%20%E6%96%B0%E5%8A%A0%E5%9D%A1NewMedia%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2061
