@@ -1,4 +1,4 @@
-trojan://github.com/colatiger.xyz@127.0.0.1:10808#%E6%9B%B4%E6%96%B0%E4%BA%8E%3A04-24%2018%3A53%3A22%20by%20github.com%2Fcolatiger.xyz
+trojan://github.com/colatiger.xyz@127.0.0.1:10808#%E6%9B%B4%E6%96%B0%E4%BA%8E%3A04-24%2019%3A03%3A15%20by%20github.com%2Fcolatiger
 trojan://github.com/colatiger@t1.ssrsub.one:1443#%40github.com/colatiger-%e5%8a%a0%e6%8b%bf%e5%a4%a7T01
 trojan://github.com/colatiger@t2.ssrsub.one:1443#%40github.com/colatiger-%e5%8a%a0%e6%8b%bf%e5%a4%a7T02
 trojan://github.com/colatiger@t3.ssrsub.one:1443#%40github.com/colatiger-%e5%8a%a0%e6%8b%bf%e5%a4%a7T03
