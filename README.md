@@ -1,4 +1,4 @@
-﻿hadowrocket节点订阅
+v2ray,shadowrocket节点订阅
 
 #### 介绍
 v2ray,shadowrocket（小火箭）节点订阅
