@@ -10,6 +10,22 @@ v2ray,shadowrocket（小火箭）节点订阅
 - ss.md 为ss节点，trojan.md 为trojan节点，vmess.md 为v2ray节点，proxy.md 为综合节点。
 - 生成订阅地址。建议只使用某一类节点，因为节点过多，会导致代理工具切换节点速度过慢，同时也会工具占用系统资源过高。 
 
+#### 节点订阅
+综合节点订阅地址
++ https://github.com/colatiger/v2ray-nodes/raw/master/proxy.md
++ https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md
+
+ss节点订阅地址
++ https://github.com/colatiger/v2ray-nodes/raw/master/ss.md
++ https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md
+
+vmess节点订阅地址
++ https://github.com/colatiger/v2ray-nodes/raw/master/vmess.md
++ https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md
+
+trojan节点订阅地址
++ https://github.com/colatiger/v2ray-nodes/raw/master/trojan.md
++ https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md
 
 #### 适用APP
 
