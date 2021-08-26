@@ -35,9 +35,16 @@ trojan节点订阅地址
 
 - 请自行查阅各APP的使用教程。
 
-#### 站点推广
-- 虎窝GFW资源站 https://www.hwgfw.xyz
-- 虎窝影院 https://movie.hwgfw.xyz
+#### 已自测的手机APP（测试手机：小米11 utral）
+##### clash安卓最新版
+- http://cdn.hwgfw.xyz/f/308478-509500852-d85c04
+- 访问密码：7728
+##### v2ray安卓最新版
+- http://cdn.hwgfw.xyz/f/308478-509500834-60171c
+- 访问密码：7728
+##### Tenta浏览器 会员破解 高级版（推荐！N多节点，油管高清不卡顿）
+- http://cdn.hwgfw.xyz/f/308478-509500385-811dc8
+- 访问密码：7728
 
 #### 联系我们
 - 电报群 https://t.me/hwgfw
