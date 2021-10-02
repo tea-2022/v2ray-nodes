@@ -1,1 +1,71 @@
-c3M6Ly9ZV1Z6TFRFeU9DMW5ZMjA2YzNWdkxubDBMM056Y25OMVlrQnpjekV1YzNOeWMzVmlMbU52YlRvME1EUTBNdz09I1JlbGF5Xy3wn4eo8J+HpkNBXzAxCnNzOi8vWVdWekxURXlPQzFuWTIwNmMzVnZMbmwwTDNOemNuTjFZa0J6Y3pNdWMzTnljM1ZpTG1OdmJUbzBNRFEwTXc9PSNSZWxheV8t8J+HqPCfh6ZDQV8wMgpzczovL1lXVnpMVEkxTmkxblkyMDZlREl6V2pSTVIydEhSR3RVYUZvNVMyRjZORVJWVWxGd1FEZzFMakV3TGpVMkxqRTVNam8wTURBNU13PT0jUG9vbF9fMDMKc3M6Ly9ZV1Z6TFRFeU9DMW5ZMjA2YUhSMGNITTZMeTlrYkdvdWRHWXZjM055YzNWaVFITnpOQzV6YzNKemRXSXVZMjl0T2prME5ETT0jUmVsYXlfLfCfh6jwn4emQ0FfMDQKc3M6Ly9ZV1Z6TFRFeU9DMW5ZMjA2YzNWdkxubDBMM056Y25OMVlrQnpjelV1YzNOeWMzVmlMbU52YlRvME1EUTBNdz09I1JlbGF5Xy3wn4eo8J+HpkNBXzA1CnNzOi8vWVdWekxURXlPQzFuWTIwNmFIUjBjSE02THk5a2JHb3VkR1l2YzNOeWMzVmlRSE56Tmk1emMzSnpkV0l1WTI5dE9qazBORE09I1JlbGF5Xy3wn4eo8J+HpkNBXzA2CnNzOi8vWVdWekxUSTFOaTFuWTIwNmVWVllZV1EzUkVkR09FdzFZMVJUYUVWd2JuQXlUalo2UURFNU1TNDVOaTR4TXk0eU1EQTZNelkwTmpBPSNQb29sX18wNwpzczovL1lXVnpMVEkxTmkxblkyMDZRMVZ1WkZOYWJsbHpVRXRqZFRaTGFqaFVTRlpOUWtoRVFEWTJMakV4TlM0eE5EY3VPRGs2TXprM056ST0jUG9vbF9fMDgKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2V1hsRFFtVkVaRmxZTkdOaFpFaHdRMnRyYldSS1RIRTRRRFkyTGpFeE5TNHhOemN1TVRVek9qUXpPRGt6I1Bvb2xfXzA5CnNzOi8vWVdWekxURXlPQzFuWTIwNmFIUjBjSE02THk5a2JHb3VkR1l2YzNOeWMzVmlRSE56TWk1emMzSnpkV0l1WTI5dE9qazBORE09I1JlbGF5Xy3wn4eo8J+HpkNBXzEwCnNzOi8vWVdWekxUSTFOaTFuWTIwNlVFTnVia2cyVTFGVGJtWnZVekkzUURFNU15NHhNRGd1TVRFNExqTTBPamd3T1RBPSPwn4ep8J+HqkRFXzQ0CnNzOi8vWVdWekxUSTFOaTFuWTIwNmNqWm9SSEpyVURSRmREWkZSVTVVVXpoUmVUZFVZMjFuUURFNE5TNHhOall1T0RRdU9ERTZORFExTXprPSNQb29sX/Cfh6vwn4e3RlJfNDUKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2UkV0WVpsZDNZelJsWW5OamNGaFVTM0JpZERnMWNsTklRREU0TlM0eE5qWXVPRFF1T0RFNk16ZzNOREk9I1Bvb2xf8J+Hq/Cfh7dGUl80NgpzczovL1lXVnpMVEkxTmkxblkyMDZaMWxNT0RORVVWZFlkVVJpZUcxYVFWWldkRlZVV0dGTFFEZ3lMakV3TWk0eU5pNDVNem8wTmpZME1nPT0jUG9vbF/wn4eu8J+HuUlUXzQ4CnNzOi8vWVdWekxUSTFOaTFuWTIwNlExUkxPRWRZUmxGblMxbFJSWEp5WjJoUVNtWmFOblJyUURneUxqRXdNaTR5Tmk0NU16bzBOekV5TVE9PSNQb29sX/Cfh67wn4e5SVRfNDkKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2UkV0WVpsZDNZelJsWW5OamNGaFVTM0JpZERnMWNsTklRRGd5TGpFd01pNHlOaTQ1TkRvek9EYzBNZz09I/Cfh67wn4e5SVRfNTAKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2UW1SU1YwTXpPRXcxU2xWRVRWUlpUazU0U2tkalZYZENRREl4Tnk0eE16Z3VNakU1TGpJeU9UbzBPVE01Tmc9PSNQb29sX/Cfh67wn4e5SVRfNTEKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2UTFoVGFtZEVOM1UzUVhJM1IzaHJXalJEWjFSTlZYTnFRRFl4TGpFMExqSXhNQzR5TXpjNk5EVXpNams9I1Bvb2xf8J+HsPCfh7dLUl81MgpzczovL1lXVnpMVEkxTmkxblkyMDZlSEJSZDNsV05GYzFSbVJCTms1TlFVNUtTbmczTTFWVFFEWXhMakUwTGpJeE1DNHlNemM2TXpnd016TT0jUG9vbF/wn4ew8J+Ht0tSXzUzCnNzOi8vWVdWekxUSTFOaTFuWTIwNllWbE9aVXRFVFhwWlVWbDNORXRpVldKS1FUaFhjM3B4UURFNE5TNHlNalV1TWpndU9UTTZNekU1TkRRPSNQb29sX/Cfh7Lwn4ewTUtfNTQKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2YmpoM05GTjBibUpXUkRsa2JWaFpialJCYW5RNE4wVkJRRGM1TGpFeE1DNDFOQzR4TVRjNk16RTFOekk9I1Bvb2xf8J+Ht/Cfh7RST181NgpzczovL1lXVnpMVEkxTmkxblkyMDZlalp3U0ROU2VYUjBhMUpYYUVvMWRIQlNlWFEyWkZsclFEa3hMamt3TGpFeU15NHhNVFU2TkRFMk56WT0jUG9vbF/wn4e38J+HtFJPXzU3CnNzOi8vWVdWekxUSTFOaTFuWTIwNlExaFRhbWRFTjNVM1FYSTNSM2hyV2pSRFoxUk5WWE5xUURreExqa3dMakV5TXk0eE1UVTZORFV6TWprPSNQb29sX/Cfh7fwn4e0Uk9fNTgKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2WWpKcVJGQklWVkY0UTA1aE1rdHRSMGhhYW5rM1F6UkNRRFkwTGpRMExqUXlMall3T2pVd01ESTAjUG9vbF/wn4e68J+HuFVTXzU5CnNzOi8vWVdWekxUSTFOaTFuWTIwNlRraDNVVlJRVEVObVlWUk5VM0ZVYmxVemJXcGpVM2hsUURRMUxqRXlPUzR6TWk0NE9qTXpPVGs0I1Bvb2xf8J+HuvCfh7hVU182MApzczovL1lXVnpMVEkxTmkxblkyMDZUa2gzVVZSUVRFTm1ZVlJOVTNGVWJsVXpiV3BqVTNobFFERXdOQzR5TURBdU1UTXhMakkwT1Rvek16azVPQT09I1Bvb2xf8J+HuvCfh7hVU182MQpzczovL1lXVnpMVEkxTmkxblkyMDZZVmxPWlV0RVRYcFpVVmwzTkV0aVZXSktRVGhYYzNweFFEWTBMalEwTGpReUxqWXdPak14T1RRMCNQb29sX/Cfh7rwn4e4VVNfNjIKc3M6Ly9ZV1Z6TFRJMU5pMW5ZMjA2VUVOdWJrZzJVMUZUYm1adlV6STNRREV6TkM0eE9UVXVNVGsyTGpFMU5EbzRNRGt3I/Cfj4FaWl82OQpzczovL1lXVnpMVEkxTmkxblkyMDZVRU51YmtnMlUxRlRibVp2VXpJM1FERXpOQzR4T1RVdU1UazJMamszT2pnd09UQT0j8J+PgVpaXzcwCg==
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Origin DNS error | ss.dswang.ga | Cloudflare</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" type="text/css" media="screen,projection" />
+
+
+<script defer src="https://api.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1016</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 697f243050751fae &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2021-10-02 16:00:12 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">Origin DNS error</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>You've requested a page on a website (ss.dswang.ga) that is on the <a data-orig-proto="https" data-orig-ref="www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. Cloudflare is currently unable to resolve your requested domain (ss.dswang.ga).
+            
+          </div>
+
+          
+          <div id="resolution-copy-section" class="w-1/2 mt-6 text-15 leading-normal">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_can_i_do">What can I do?</h2>
+            <p><strong>If you are a visitor of this website:</strong><br />Please try again in a few minutes.</p><p><strong>If you are the owner of this website:</strong><br />Check your DNS settings. If you are using a CNAME origin record, make sure it is valid and resolvable. <a rel="noopener noreferrer" href="https://support.cloudflare.com/hc/en-us/articles/234979888-Error-1016-Origin-DNS-error">Additional troubleshooting information here.</a></p>
+          </div>
+          
+      </section>
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">697f243050751fae</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 140.238.43.55</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"697f24303ac81fae","version":"2021.9.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+</body>
+</html>
+
