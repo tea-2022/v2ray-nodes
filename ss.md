@@ -22,8 +22,8 @@
 <span data-translate="error">Error</span>
 <span>1000</span>
 </h1>
-<span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6a5715e84f721ea7 &bull;</span>
-<span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2021-10-28 20:59:01 UTC</span>
+<span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6a581f124d5a34e7 &bull;</span>
+<span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2021-10-29 00:00:02 UTC</span>
 <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">DNS points to prohibited IP</h2>
 </header>
 <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
@@ -38,9 +38,9 @@
 </section>
 <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
 <p class="text-13">
-<span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6a5715e84f721ea7</strong></span>
+<span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6a581f124d5a34e7</strong></span>
 <span class="cf-footer-separator sm:hidden">&bull;</span>
-<span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 172.70.122.3</span>
+<span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 172.68.118.83</span>
 <span class="cf-footer-separator sm:hidden">&bull;</span>
 <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
 </p>
@@ -52,24 +52,24 @@
   
   
 </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e84f721ea7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e83c79207d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e82c71207d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e82f2e2047","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e81c711fc3","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e80f012047","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e7fc4e1fc3","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e7eefb1ea7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e7deef1ea7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e7cee11ea7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e7bc08207d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e7bec21ea7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e79be41fc3","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e78bbc207d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e76b99207d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e75e4a1ea7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e73be71ee9","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e714112095","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a5715e70fd32095","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f124d5a34e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f123f1d351d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f122d3a34e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f121ac234cf","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f120d8a34bd","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11fd7534bd","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11ea9134cf","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11ee85351d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11dcd434e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11dd4534bd","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11ccbf34e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11bd2c34bd","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11ba4c34cf","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11ac9034e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f11aa3c34cf","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f118e17351d","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f117b2c3463","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f0fc11a34e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a581f0fb9d634e7","version":"2021.10.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}'></script>
 </body>
 </html>
