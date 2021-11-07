@@ -5,133 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_-🇨🇦CA_01, server: ss2.ssrsub.com, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: _02, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: _03, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: Relay_-🇨🇦CA_04, server: ss6.ssrsub.com, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: _05, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _06, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 Relay_-🇺🇸US_07, server: usa.oracleusa.ml, port: 65367, type: vmess, uuid: ae888f86-b8e7-461b-9ea5-fe3f3d0d1bab, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: usa.oracleusa.ml}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_08, server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: antigfwjp.tk}}
-  - {name: Relay_-🇨🇭CH_09, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: e2e7ce07-5711-4058-93ab-3ff0f8fd9f0d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6gSuVkLX, ws-headers: {Host: sw.gfwglass.tk}}
-  - {name: 🇺🇸 Relay_-🇺🇸US_10, server: t2.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t2.ssrsub.com}
-  - {name: 🇺🇸 Relay_-🇺🇸US_11, server: t2.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t2.ssrsub.com}
+  - {name: _01, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Relay_-🇨🇦CA_02, server: ss2.ssrsub.com, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: _03, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _04, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Relay_-🇨🇦CA_05, server: ss6.ssrsub.com, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: _06, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_07, server: antigfwjp.tk, port: 443, type: vmess, uuid: fb294abd-d3cc-4504-8d40-866b7622ce59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: antigfwjp.tk}}
+  - {name: 🇺🇸 Relay_-🇺🇸US_08, server: usa.oracleusa.ml, port: 65367, type: vmess, uuid: ae888f86-b8e7-461b-9ea5-fe3f3d0d1bab, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: usa.oracleusa.ml}}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_09, server: t5.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t5.ssrsub.com}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_10, server: t5.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t5.ssrsub.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,17 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_-🇨🇦CA_01
-      - _02
+      - _01
+      - Relay_-🇨🇦CA_02
       - _03
-      - Relay_-🇨🇦CA_04
-      - _05
+      - _04
+      - Relay_-🇨🇦CA_05
       - _06
-      - 🇺🇸 Relay_-🇺🇸US_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
-      - Relay_-🇨🇭CH_09
-      - 🇺🇸 Relay_-🇺🇸US_10
-      - 🇺🇸 Relay_-🇺🇸US_11
+      - 🇷🇺 Relay_-🇷🇺RU_07
+      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_09
+      - 🇷🇺 Relay_-🇷🇺RU_10
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
