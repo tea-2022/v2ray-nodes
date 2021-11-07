@@ -6,7 +6,7 @@ v2ray,shadowrocket（小火箭）节点订阅
 #### 节点资源
 - 本订阅所提供的所有节点均来自于互联网公益组织，本人只是做了一下采集和整合，免费提供给有需要的网友，因此不对节点的稳定性、可用性提供任何承诺。
 - 计划每天不定时更新数次。
-- clash,sugar等用户，请自行通过节点转换托管平台([https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/ "https://acl4ssr-sub.github.io/"))进行转换，平台的短链接有问题，暂时不要使用。
+- clash用户，请添加([https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/hw_clash.yaml](https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/hw_clash.yaml)),本配置有自动测速、日常分组功能，能满足日常需求。如有其他需要的，请自行前往节点转换托管平台([https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/ "https://acl4ssr-sub.github.io/"))自行进行转换，由于短链平台接口调整，短链生成功能已经失效。
 - ss.md 为ss节点，ssr.md 为ssr节点，trojan.md 为trojan节点，vmess.md 为v2ray节点，proxy.md 为综合节点。
 - 生成订阅地址。建议只使用某一类节点，因为节点过多，会导致代理工具切换节点速度过慢，同时也会工具占用系统资源过高。 
 
