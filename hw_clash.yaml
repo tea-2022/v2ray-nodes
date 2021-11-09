@@ -5,14 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _01, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _01, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _02, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: _03, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_04, server: v5.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_05, server: t5.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t5.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_06, server: t5.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t5.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_07, server: t4.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t4.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_08, server: t4.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t4.ssrsub.com}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_03, server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: 🇺🇸 Relay_-🇺🇸US_04, server: t1.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t1.ssrsub.com}
+  - {name: 🇺🇸 Relay_-🇺🇸US_05, server: t1.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t1.ssrsub.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -21,12 +18,9 @@ proxy-groups:
       - DIRECT
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,12 +29,9 @@ proxy-groups:
     proxies:
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -49,12 +40,9 @@ proxy-groups:
       - 🎯 全球直连
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: 📲 电报信息
     type: select
     proxies:
@@ -62,12 +50,9 @@ proxy-groups:
       - 🎯 全球直连
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -75,12 +60,9 @@ proxy-groups:
       - 🚀 节点选择
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -88,12 +70,9 @@ proxy-groups:
       - 🎯 全球直连
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -102,12 +81,9 @@ proxy-groups:
       - ♻️ 自动选择
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,12 +108,9 @@ proxy-groups:
       - ♻️ 自动选择
       - _01
       - _02
-      - _03
-      - 🇷🇺 Relay_-🇷🇺RU_04
-      - 🇷🇺 Relay_-🇷🇺RU_05
-      - 🇷🇺 Relay_-🇷🇺RU_06
-      - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇷🇺 Relay_-🇷🇺RU_08
+      - 🇷🇺 Relay_-🇷🇺RU_03
+      - 🇺🇸 Relay_-🇺🇸US_04
+      - 🇺🇸 Relay_-🇺🇸US_05
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
