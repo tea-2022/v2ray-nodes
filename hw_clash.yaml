@@ -6,30 +6,15 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: _01, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: _02, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_03, server: v5.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
-  - {name: 🇺🇸 Relay_-🇺🇸US_04, server: v1.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: Relay_-🇨🇭CH_05, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: e2e7ce07-5711-4058-93ab-3ff0f8fd9f0d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6gSuVkLX, ws-headers: {Host: sw.gfwglass.tk}}
-  - {name: 🇺🇸 Relay_-🇺🇸US_06, server: v2.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}}
+  - {name: _02, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: _03, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: Relay_-🇨🇭CH_04, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: e2e7ce07-5711-4058-93ab-3ff0f8fd9f0d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /6gSuVkLX, ws-headers: {Host: sw.gfwglass.tk}}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_05, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_06, server: v5.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
   - {name: 🇷🇺 Relay_-🇷🇺RU_07, server: v5.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}}
-  - {name: 🇺🇸 Relay_-🇺🇸US_08, server: v2.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_09, server: v3.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_10, server: v7.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_11, server: v7.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_12, server: v3.ssrsub.com, port: 166, type: vmess, uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}}
-  - {name: 🇺🇸 Relay_-🇺🇸US_13, server: v1.ssrsub.com, port: 166, type: vmess, uuid: d8aacec8-e256-427b-a927-0c6013f6595b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_14, server: t5.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t5.ssrsub.com}
-  - {name: 🇺🇸 Relay_-🇺🇸US_15, server: t2.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t2.ssrsub.com}
-  - {name: 🇺🇸 Relay_-🇺🇸US_16, server: t2.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t2.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_17, server: t5.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t5.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_18, server: t3.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t3.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_19, server: t3.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t3.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_20, server: t7.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t7.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_21, server: t7.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t7.ssrsub.com}
-  - {name: 🇺🇸 Relay_-🇺🇸US_22, server: t1.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t1.ssrsub.com}
-  - {name: 🇺🇸 Relay_-🇺🇸US_23, server: t1.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t1.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_24, server: t4.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t4.ssrsub.com}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_25, server: t4.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t4.ssrsub.com}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_08, server: ru.gfwglass.tk, port: 443, type: vmess, uuid: 8414177f-abd4-4af4-8beb-af4235a09248, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /114514, ws-headers: {Host: ru.gfwglass.tk}}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_09, server: t5.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t5.ssrsub.com}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_10, server: t5.ssrsub.com, port: 833, type: trojan, password: 8962d993-c7ff-4768-9dce-e2e8273f73dc, sni: t5.ssrsub.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -38,29 +23,14 @@ proxy-groups:
       - DIRECT
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -69,29 +39,14 @@ proxy-groups:
     proxies:
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -100,29 +55,14 @@ proxy-groups:
       - 🎯 全球直连
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: 📲 电报信息
     type: select
     proxies:
@@ -130,29 +70,14 @@ proxy-groups:
       - 🎯 全球直连
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -160,29 +85,14 @@ proxy-groups:
       - 🚀 节点选择
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -190,29 +100,14 @@ proxy-groups:
       - 🎯 全球直连
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -221,29 +116,14 @@ proxy-groups:
       - ♻️ 自动选择
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -268,29 +148,14 @@ proxy-groups:
       - ♻️ 自动选择
       - _01
       - _02
-      - 🇷🇺 Relay_-🇷🇺RU_03
-      - 🇺🇸 Relay_-🇺🇸US_04
-      - Relay_-🇨🇭CH_05
-      - 🇺🇸 Relay_-🇺🇸US_06
+      - _03
+      - Relay_-🇨🇭CH_04
+      - 🇷🇺 Relay_-🇷🇺RU_05
+      - 🇷🇺 Relay_-🇷🇺RU_06
       - 🇷🇺 Relay_-🇷🇺RU_07
-      - 🇺🇸 Relay_-🇺🇸US_08
+      - 🇷🇺 Relay_-🇷🇺RU_08
       - 🇷🇺 Relay_-🇷🇺RU_09
       - 🇷🇺 Relay_-🇷🇺RU_10
-      - 🇷🇺 Relay_-🇷🇺RU_11
-      - 🇷🇺 Relay_-🇷🇺RU_12
-      - 🇺🇸 Relay_-🇺🇸US_13
-      - 🇷🇺 Relay_-🇷🇺RU_14
-      - 🇺🇸 Relay_-🇺🇸US_15
-      - 🇺🇸 Relay_-🇺🇸US_16
-      - 🇷🇺 Relay_-🇷🇺RU_17
-      - 🇷🇺 Relay_-🇷🇺RU_18
-      - 🇷🇺 Relay_-🇷🇺RU_19
-      - 🇷🇺 Relay_-🇷🇺RU_20
-      - 🇷🇺 Relay_-🇷🇺RU_21
-      - 🇺🇸 Relay_-🇺🇸US_22
-      - 🇺🇸 Relay_-🇺🇸US_23
-      - 🇷🇺 Relay_-🇷🇺RU_24
-      - 🇷🇺 Relay_-🇷🇺RU_25
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
