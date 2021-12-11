@@ -28,8 +28,8 @@
               <span class="cf-error-type">Error</span>
               <span class="cf-error-code">522</span>
             </h1>
-            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6bc1924c327720c1 &bull;</span>
-            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2021-12-11 20:48:17 UTC</span>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6bc193c5430f3521 &bull;</span>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2021-12-11 20:49:17 UTC</span>
             <h2 class="text-gray-600 leading-1.3 text-3xl font-light">Connection timed out</h2>
         </header>
         
@@ -93,7 +93,7 @@
 
         <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6bc1924c327720c1</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6bc193c5430f3521</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 140.238.43.55</span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
@@ -105,7 +105,7 @@
 
     </div>
 </div>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6bc1924c2de720c1","version":"2021.11.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v64f9daad31f64f81be21cbef6184a5e31634941392597" integrity="sha512-gV/bogrUTVP2N3IzTDKzgP0Js1gg4fbwtYB6ftgLbKQu/V8yH2+lrKCfKHelh4SO3DPzKj4/glTO+tNJGDnb0A==" data-cf-beacon='{"rayId":"6bc193c53dcb3521","version":"2021.11.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
 
