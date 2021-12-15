@@ -9,22 +9,22 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 - clash等其他不能直接使用订阅地址的用户，请自行前往节点转换托管平台([https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/ "https://acl4ssr-sub.github.io/"))进行转换。
 - ss.md 为ss节点，trojan.md 为trojan节点，vmess.md 为v2ray节点，proxy.md 为综合节点，clash.yaml 为clash配置文件。
 
-#### 节点订阅（由于github在国内访问不稳定，可选用备用地址。备用地址是github的镜像地址，会比官方更新延后2小时左右，但一般不影响使用。）
+#### 节点订阅（由于github在国内访问不稳定，可选用备用地址。）
 综合节点订阅地址
 + ([https://github.com/colatiger/v2ray-nodes/raw/master/proxy.md](https://github.com/colatiger/v2ray-nodes/raw/master/proxy.md))
-+ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md))（备用地址）
++ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/proxy.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/proxy.md))（备用地址）
 
 ss节点订阅地址
 + ([https://github.com/colatiger/v2ray-nodes/raw/master/ss.md](https://github.com/colatiger/v2ray-nodes/raw/master/ss.md))
-+ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md))（备用地址）
++ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/ss.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/ss.md))（备用地址）
 
 vmess节点订阅地址
 + ([https://github.com/colatiger/v2ray-nodes/raw/master/vmess.md](https://github.com/colatiger/v2ray-nodes/raw/master/vmess.md))
-+ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md))（备用地址）
++ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/vmess.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/vmess.md))（备用地址）
 
 trojan节点订阅地址
 + ([https://github.com/colatiger/v2ray-nodes/raw/master/trojan.md](https://github.com/colatiger/v2ray-nodes/raw/master/trojan.md))
-+ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md))（备用地址）
++ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/trojan.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/trojan.md))（备用地址）
 
 #### 适用APP
 
@@ -61,7 +61,9 @@ trojan节点订阅地址
 
 #### <font color=red>clash专区</font>
 - 数千个节点，油管、奈飞、电报、谷歌、推特、巴哈姆特等自动筛选适合节点。
-- 配置文件在线地址：https://cdn.staticaly.com/gh/colatiger/v2ray-nodes/master/clash.yaml
+- 配置文件在线地址：
+- https://github.com/colatiger/v2ray-nodes/raw/master/clash.yaml
+- https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/clash.yaml (备用)
 - clash for windows
 - http://cdn.hwgfw.xyz/f/308478-528995138-5f6dbb
 - （访问密码：7728）
