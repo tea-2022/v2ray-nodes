@@ -60,7 +60,7 @@ trojan节点订阅地址
 - （访问密码：7728）
 
 #### <font color=red>clash专区</font>
-- 数千个节点，油管、奈飞、电报、谷歌、推特、巴哈姆特等自动筛选适合节点。
+- 有效节点数量保持在数十个。
 - 配置文件在线地址：
 - https://github.com/colatiger/v2ray-nodes/raw/master/clash.yaml
 - https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/clash.yaml (备用)
