@@ -32,7 +32,7 @@ proxies:
   - {name: "[SS] 🇭🇰 HK_538 | 4.16Mb", server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: "[SS] 🇭🇰 HK_539 |24.51Mb", server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: "[SS] 🇭🇰 HK_540 |23.80Mb", server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: "[SS] 🇭🇰 HK_541", server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇭🇰 HK_541 | 3.11Mb", server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[SS] 🇭🇰 HK_542 |11.63Mb", server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
   - {name: "[SS] 🇭🇰 HK_544 |23.96Mb", server: 118.107.244.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "[SS] 🇭🇰 HK_548 | 4.33Mb", server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
@@ -1274,7 +1274,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -2516,7 +2516,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -3758,7 +3758,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -4999,7 +4999,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -6240,7 +6240,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -7481,7 +7481,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -8723,7 +8723,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
@@ -9981,7 +9981,7 @@ proxy-groups:
       - "[SS] 🇭🇰 HK_538 | 4.16Mb"
       - "[SS] 🇭🇰 HK_539 |24.51Mb"
       - "[SS] 🇭🇰 HK_540 |23.80Mb"
-      - "[SS] 🇭🇰 HK_541"
+      - "[SS] 🇭🇰 HK_541 | 3.11Mb"
       - "[SS] 🇭🇰 HK_542 |11.63Mb"
       - "[SS] 🇭🇰 HK_544 |23.96Mb"
       - "[SS] 🇭🇰 HK_548 | 4.33Mb"
