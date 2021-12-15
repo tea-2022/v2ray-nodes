@@ -220,7 +220,7 @@ proxies:
   - {name: "[VMess] 🇸🇬 SG_910 |12.87Mb", server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}}
   - {name: "[VMess] 🇸🇬 SG_911", server: 8.210.55.79, port: 80, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
   - {name: "[VMess] 🇸🇬 SG_912 |14.25Mb", server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}}
-  - {name: "[VMess] 🇸🇬 SG_913", server: 52.221.196.53, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: 52.221.196.53}}
+  - {name: "[VMess] 🇸🇬 SG_913 | 2.05Mb", server: 52.221.196.53, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: 52.221.196.53}}
   - {name: "[VMess] 🇸🇬 SG_914 |23.28Mb", server: jp-tokyo-node2.ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp-tokyo-node2.ycgyg.com}}
   - {name: "[VMess] 🇸🇬 SG_915 |25.84Mb", server: 202.61.141.194, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 202.61.141.194}}
   - {name: "[VMess] 🇸🇬 SG_916 |18.41Mb", server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 202.61.141.130}}
@@ -1369,7 +1369,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -2518,7 +2518,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -3667,7 +3667,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -4815,7 +4815,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -5963,7 +5963,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -7111,7 +7111,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -8260,7 +8260,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
@@ -9425,7 +9425,7 @@ proxy-groups:
       - "[VMess] 🇸🇬 SG_910 |12.87Mb"
       - "[VMess] 🇸🇬 SG_911"
       - "[VMess] 🇸🇬 SG_912 |14.25Mb"
-      - "[VMess] 🇸🇬 SG_913"
+      - "[VMess] 🇸🇬 SG_913 | 2.05Mb"
       - "[VMess] 🇸🇬 SG_914 |23.28Mb"
       - "[VMess] 🇸🇬 SG_915 |25.84Mb"
       - "[VMess] 🇸🇬 SG_916 |18.41Mb"
