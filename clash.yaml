@@ -7,12 +7,12 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "[Trojan] 🇨🇳 TW_902", server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false}
   - {name: "[Trojan] 🇨🇳 TW_903", server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false}
-  - {name: "[SS] 🇭🇰 HK_483 |22.89Mb", server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "[SS] 🇭🇰 HK_485 |25.09Mb", server: 118.107.244.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[SS] 🇭🇰 HK_487 |23.20Mb", server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[SS] 🇭🇰 HK_489 |14.24Mb", server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "[SS] 🇭🇰 HK_490 |25.84Mb", server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: "[SS] 🇭🇰 HK_494 |24.82Mb", server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇭🇰 HK_483 |23.40Mb", server: 118.107.244.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇭🇰 HK_485 |23.96Mb", server: 118.107.244.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇭🇰 HK_487 |22.91Mb", server: 118.107.244.114, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "[SS] 🇭🇰 HK_489 |14.70Mb", server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "[SS] 🇭🇰 HK_490 |25.12Mb", server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: "[SS] 🇭🇰 HK_494 |24.51Mb", server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: "[VMess] 🇭🇰 HK_495 | 9.85Mb", server: 103.138.75.235, port: 443, type: vmess, uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /clientarea, ws-headers: {Host: 103.138.75.235}}
   - {name: "[VMess] 🇭🇰 HK_496 | 4.11Mb", server: 23.98.36.128, port: 51661, type: vmess, uuid: c897e529-523d-3956-8725-63d2912029d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /qweewqwewguqe, ws-headers: {Host: 23.98.36.128}}
   - {name: "[VMess] 🇭🇰 HK_498", server: hk.iq.ddns.mobi, port: 51654, type: vmess, uuid: c897e529-523d-3956-8725-63d2912029d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /edaaeguae, ws-headers: {Host: hk.iq.ddns.mobi}}
@@ -1167,12 +1167,12 @@ proxy-groups:
       - DIRECT
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -2327,12 +2327,12 @@ proxy-groups:
     proxies:
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -3487,12 +3487,12 @@ proxy-groups:
       - 🎯 全球直连
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -4646,12 +4646,12 @@ proxy-groups:
       - 🎯 全球直连
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -5805,12 +5805,12 @@ proxy-groups:
       - 🚀 节点选择
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -6964,12 +6964,12 @@ proxy-groups:
       - 🎯 全球直连
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -8124,12 +8124,12 @@ proxy-groups:
       - ♻️ 自动选择
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
@@ -9300,12 +9300,12 @@ proxy-groups:
       - ♻️ 自动选择
       - "[Trojan] 🇨🇳 TW_902"
       - "[Trojan] 🇨🇳 TW_903"
-      - "[SS] 🇭🇰 HK_483 |22.89Mb"
-      - "[SS] 🇭🇰 HK_485 |25.09Mb"
-      - "[SS] 🇭🇰 HK_487 |23.20Mb"
-      - "[SS] 🇭🇰 HK_489 |14.24Mb"
-      - "[SS] 🇭🇰 HK_490 |25.84Mb"
-      - "[SS] 🇭🇰 HK_494 |24.82Mb"
+      - "[SS] 🇭🇰 HK_483 |23.40Mb"
+      - "[SS] 🇭🇰 HK_485 |23.96Mb"
+      - "[SS] 🇭🇰 HK_487 |22.91Mb"
+      - "[SS] 🇭🇰 HK_489 |14.70Mb"
+      - "[SS] 🇭🇰 HK_490 |25.12Mb"
+      - "[SS] 🇭🇰 HK_494 |24.51Mb"
       - "[VMess] 🇭🇰 HK_495 | 9.85Mb"
       - "[VMess] 🇭🇰 HK_496 | 4.11Mb"
       - "[VMess] 🇭🇰 HK_498"
