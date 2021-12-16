@@ -73,7 +73,7 @@ proxies:
   - {name: "[SS] 🇯🇵 JP_655 | 3.50Mb", server: 89.31.126.155, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[SS] 🇯🇵 JP_659 | 1.39Mb", server: 89.31.126.150, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[SS] 🇯🇵 JP_660 |19.37Mb", server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "[SS] 🇯🇵 JP_664", server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "[SS] 🇯🇵 JP_664 |30.99Mb", server: 139.162.116.154, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: "[SS] 🇯🇵 JP_665 |55.58Mb", server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: "[SS] 🇯🇵 JP_666 | 3.20Mb", server: 45.66.134.210, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: "[VMess] 🇯🇵 JP_667", server: a83679f.td.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.td.cloudflare.systems}}
@@ -120,7 +120,7 @@ proxies:
   - {name: "[VMess] 🇯🇵 JP_709", server: a83679f.he.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.he.gladns.com}}
   - {name: "[VMess] 🇯🇵 JP_710", server: a83679f.md.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.md.cloudflare.systems}}
   - {name: "[VMess] 🇯🇵 JP_711", server: ff5c0fb.hf.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /s/ff5c0fb.fm.apple.com:30513, ws-headers: {Host: ff5c0fb.hf.gladns.com}}
-  - {name: "[VMess] 🇯🇵 JP_712", server: 54.92.121.201, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: 54.92.121.201}}
+  - {name: "[VMess] 🇯🇵 JP_712 |34.77Mb", server: 54.92.121.201, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: 54.92.121.201}}
   - {name: "[VMess] 🇯🇵 JP_713", server: a83679f.ra.gladns.com, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.ra.gladns.com}}
   - {name: "[VMess] 🇯🇵 JP_714", server: a83679f.ds.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.ds.cloudflare.systems}}
   - {name: "[VMess] 🇯🇵 JP_715", server: a83679f.hf.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /t, ws-headers: {Host: a83679f.hf.gladns.com}}
@@ -1353,7 +1353,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -1400,7 +1400,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -2633,7 +2633,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -2680,7 +2680,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -3913,7 +3913,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -3960,7 +3960,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -5192,7 +5192,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -5239,7 +5239,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -6471,7 +6471,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -6518,7 +6518,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -7750,7 +7750,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -7797,7 +7797,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -9030,7 +9030,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -9077,7 +9077,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
@@ -10326,7 +10326,7 @@ proxy-groups:
       - "[SS] 🇯🇵 JP_655 | 3.50Mb"
       - "[SS] 🇯🇵 JP_659 | 1.39Mb"
       - "[SS] 🇯🇵 JP_660 |19.37Mb"
-      - "[SS] 🇯🇵 JP_664"
+      - "[SS] 🇯🇵 JP_664 |30.99Mb"
       - "[SS] 🇯🇵 JP_665 |55.58Mb"
       - "[SS] 🇯🇵 JP_666 | 3.20Mb"
       - "[VMess] 🇯🇵 JP_667"
@@ -10373,7 +10373,7 @@ proxy-groups:
       - "[VMess] 🇯🇵 JP_709"
       - "[VMess] 🇯🇵 JP_710"
       - "[VMess] 🇯🇵 JP_711"
-      - "[VMess] 🇯🇵 JP_712"
+      - "[VMess] 🇯🇵 JP_712 |34.77Mb"
       - "[VMess] 🇯🇵 JP_713"
       - "[VMess] 🇯🇵 JP_714"
       - "[VMess] 🇯🇵 JP_715"
