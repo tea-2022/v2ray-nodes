@@ -1070,7 +1070,7 @@ proxies:
   - {name: "[VMess] 🇺🇲 US_1839 |145.02Mb", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
   - {name: "[VMess] 🇺🇲 US_1840", server: 104.21.62.193, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: 104.21.62.193}}
   - {name: "[VMess] 🇺🇲 US_1841 |11.96Mb", server: 172.67.176.114, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: 172.67.176.114}}
-  - {name: "[VMess] 🇺🇲 US_1842", server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[VMess] 🇺🇲 US_1842 | 2.57Mb", server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] 🇺🇲 US_1843", server: hax.hostmeetingnow.tk, port: 80, type: vmess, uuid: 86606733-f014-46d5-e5e4-8dc4d9fb77d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /api/v2/null, ws-headers: {Host: hax.hostmeetingnow.tk}}
   - {name: "[VMess] 🇺🇲 US_1844 |20.78Mb", server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
   - {name: "[Trojan] 🇺🇲 US_1845", server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: false}
@@ -2229,7 +2229,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -3388,7 +3388,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -4547,7 +4547,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -5705,7 +5705,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -6863,7 +6863,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -8021,7 +8021,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -9180,7 +9180,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
@@ -10355,7 +10355,7 @@ proxy-groups:
       - "[VMess] 🇺🇲 US_1839 |145.02Mb"
       - "[VMess] 🇺🇲 US_1840"
       - "[VMess] 🇺🇲 US_1841 |11.96Mb"
-      - "[VMess] 🇺🇲 US_1842"
+      - "[VMess] 🇺🇲 US_1842 | 2.57Mb"
       - "[VMess] 🇺🇲 US_1843"
       - "[VMess] 🇺🇲 US_1844 |20.78Mb"
       - "[Trojan] 🇺🇲 US_1845"
