@@ -6,63 +6,66 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: AU_01 TG@peekfun, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: BG_02 TG@peekfun, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: BG_03 TG@peekfun, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: CA_04 TG@peekfun, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_05 TG@peekfun, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_06 TG@peekfun, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_07 TG@peekfun, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_08 TG@peekfun, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CA_09 TG@peekfun, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: CA_10 TG@peekfun, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: CA_11 TG@peekfun, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_12 TG@peekfun, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: CA_13 TG@peekfun, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: DE_23 TG@peekfun, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: FR_24 TG@peekfun, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: FR_25 TG@peekfun, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: FR_26 TG@peekfun, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: FR_27 TG@peekfun, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: FR_28 TG@peekfun, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: FR_29 TG@peekfun, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: FR_30 TG@peekfun, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: FR_31 TG@peekfun, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: FR_32 TG@peekfun, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: FR_33 TG@peekfun, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: FR_34 TG@peekfun, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: FR_35 TG@peekfun, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: FR_36 TG@peekfun, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇭🇰 HK_38 TG@peekfun, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 HK_39 TG@peekfun, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇭🇰 HK_40 TG@peekfun, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇭🇰 HK_41 TG@peekfun, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: IL_45 TG@peekfun, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: IN_46 TG@peekfun, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: JP_47 TG@peekfun, server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: MX_49 TG@peekfun, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
-  - {name: MY_50 TG@peekfun, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: NL_51 TG@peekfun, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: NO_56 TG@peekfun, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: NO_57 TG@peekfun, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: NO_58 TG@peekfun, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: NO_59 TG@peekfun, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: NO_60 TG@peekfun, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: NO_61 TG@peekfun, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: NO_62 TG@peekfun, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: NO_63 TG@peekfun, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: NO_64 TG@peekfun, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: NO_65 TG@peekfun, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: NO_66 TG@peekfun, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: NO_67 TG@peekfun, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: NZ_68 TG@peekfun, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
-  - {name: PH_69 TG@peekfun, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
-  - {name: PT_70 TG@peekfun, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: PT_71 TG@peekfun, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: RO_72 TG@peekfun, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: 🇷🇺 RU_75 TG@peekfun, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: SE_76 TG@peekfun, server: 192.36.27.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: SE_77 TG@peekfun, server: 194.68.32.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇹🇼 TW_79 TG@peekfun, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: BG_02 TG@peekfun, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: BG_03 TG@peekfun, server: 194.68.225.104, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: CA_04 TG@peekfun, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CA_05 TG@peekfun, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_06 TG@peekfun, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_07 TG@peekfun, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CA_08 TG@peekfun, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_09 TG@peekfun, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CA_10 TG@peekfun, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CA_11 TG@peekfun, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CA_12 TG@peekfun, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_13 TG@peekfun, server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CA_14 TG@peekfun, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: DE_20 TG@peekfun, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: DK_21 TG@peekfun, server: 37.120.194.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2V7N5kGUghaLxF4aUqTw}
+  - {name: FR_22 TG@peekfun, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: FR_23 TG@peekfun, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: FR_24 TG@peekfun, server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: FR_25 TG@peekfun, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: FR_26 TG@peekfun, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: FR_27 TG@peekfun, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
+  - {name: FR_28 TG@peekfun, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: FR_29 TG@peekfun, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: FR_30 TG@peekfun, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: FR_31 TG@peekfun, server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: FR_32 TG@peekfun, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 HK_34 TG@peekfun, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 HK_35 TG@peekfun, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇭🇰 HK_36 TG@peekfun, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 HK_37 TG@peekfun, server: 84.17.37.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA}
+  - {name: 🇭🇰 HK_38 TG@peekfun, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 HK_39 TG@peekfun, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ID_42 TG@peekfun, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: IL_44 TG@peekfun, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: IN_45 TG@peekfun, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: JP_46 TG@peekfun, server: 172.105.232.147, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: MX_48 TG@peekfun, server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: NO_52 TG@peekfun, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: NO_53 TG@peekfun, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: NO_54 TG@peekfun, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: NO_55 TG@peekfun, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: NO_56 TG@peekfun, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: NO_57 TG@peekfun, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: NO_58 TG@peekfun, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: NO_59 TG@peekfun, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: NO_60 TG@peekfun, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: NO_61 TG@peekfun, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: NO_62 TG@peekfun, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: NO_63 TG@peekfun, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: NO_64 TG@peekfun, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: NZ_65 TG@peekfun, server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: PH_66 TG@peekfun, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG}
+  - {name: PT_67 TG@peekfun, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: PT_68 TG@peekfun, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: RO_69 TG@peekfun, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 🇷🇺 RU_73 TG@peekfun, server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: SE_75 TG@peekfun, server: 192.36.27.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: SE_76 TG@peekfun, server: 194.68.32.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇹🇼 TW_78 TG@peekfun, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH}
+  - {name: 🇺🇸 US_79 TG@peekfun, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
   - {name: 🇺🇸 US_80 TG@peekfun, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇺🇸 US_81 TG@peekfun, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇺🇸 US_82 TG@peekfun, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
@@ -72,14 +75,19 @@ proxies:
   - {name: 🇺🇸 US_86 TG@peekfun, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇺🇸 US_87 TG@peekfun, server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇺🇸 US_88 TG@peekfun, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_89 TG@peekfun, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: 🇺🇸 US_90 TG@peekfun, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: 🇺🇸 US_91 TG@peekfun, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 US_92 TG@peekfun, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_93 TG@peekfun, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US_94 TG@peekfun, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US_95 TG@peekfun, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 US_96 TG@peekfun, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_89 TG@peekfun, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
+  - {name: 🇺🇸 US_90 TG@peekfun, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: 🇺🇸 US_91 TG@peekfun, server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: 🇺🇸 US_92 TG@peekfun, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 US_93 TG@peekfun, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_94 TG@peekfun, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US_95 TG@peekfun, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US_96 TG@peekfun, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_97 TG@peekfun, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 US_98 TG@peekfun, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 US_99 TG@peekfun, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_100 TG@peekfun, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: VN_109 TG@peekfun, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -99,7 +107,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -109,20 +121,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -132,18 +145,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -161,6 +172,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -180,7 +196,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -190,20 +210,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -213,18 +234,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -242,6 +261,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -261,7 +285,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -271,20 +299,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -294,18 +323,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -323,6 +350,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
@@ -341,7 +373,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -351,20 +387,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -374,18 +411,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -403,6 +438,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -421,7 +461,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -431,20 +475,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -454,18 +499,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -483,6 +526,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -501,7 +549,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -511,20 +563,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -534,18 +587,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -563,6 +614,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -582,7 +638,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -592,20 +652,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -615,18 +676,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -644,6 +703,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -679,7 +743,11 @@ proxy-groups:
       - CA_11 TG@peekfun
       - CA_12 TG@peekfun
       - CA_13 TG@peekfun
-      - DE_23 TG@peekfun
+      - CA_14 TG@peekfun
+      - DE_20 TG@peekfun
+      - DK_21 TG@peekfun
+      - FR_22 TG@peekfun
+      - FR_23 TG@peekfun
       - FR_24 TG@peekfun
       - FR_25 TG@peekfun
       - FR_26 TG@peekfun
@@ -689,20 +757,21 @@ proxy-groups:
       - FR_30 TG@peekfun
       - FR_31 TG@peekfun
       - FR_32 TG@peekfun
-      - FR_33 TG@peekfun
-      - FR_34 TG@peekfun
-      - FR_35 TG@peekfun
-      - FR_36 TG@peekfun
+      - 🇭🇰 HK_34 TG@peekfun
+      - 🇭🇰 HK_35 TG@peekfun
+      - 🇭🇰 HK_36 TG@peekfun
+      - 🇭🇰 HK_37 TG@peekfun
       - 🇭🇰 HK_38 TG@peekfun
       - 🇭🇰 HK_39 TG@peekfun
-      - 🇭🇰 HK_40 TG@peekfun
-      - 🇭🇰 HK_41 TG@peekfun
-      - IL_45 TG@peekfun
-      - IN_46 TG@peekfun
-      - JP_47 TG@peekfun
-      - MX_49 TG@peekfun
-      - MY_50 TG@peekfun
-      - NL_51 TG@peekfun
+      - ID_42 TG@peekfun
+      - IL_44 TG@peekfun
+      - IN_45 TG@peekfun
+      - JP_46 TG@peekfun
+      - MX_48 TG@peekfun
+      - NO_52 TG@peekfun
+      - NO_53 TG@peekfun
+      - NO_54 TG@peekfun
+      - NO_55 TG@peekfun
       - NO_56 TG@peekfun
       - NO_57 TG@peekfun
       - NO_58 TG@peekfun
@@ -712,18 +781,16 @@ proxy-groups:
       - NO_62 TG@peekfun
       - NO_63 TG@peekfun
       - NO_64 TG@peekfun
-      - NO_65 TG@peekfun
-      - NO_66 TG@peekfun
-      - NO_67 TG@peekfun
-      - NZ_68 TG@peekfun
-      - PH_69 TG@peekfun
-      - PT_70 TG@peekfun
-      - PT_71 TG@peekfun
-      - RO_72 TG@peekfun
-      - 🇷🇺 RU_75 TG@peekfun
+      - NZ_65 TG@peekfun
+      - PH_66 TG@peekfun
+      - PT_67 TG@peekfun
+      - PT_68 TG@peekfun
+      - RO_69 TG@peekfun
+      - 🇷🇺 RU_73 TG@peekfun
+      - SE_75 TG@peekfun
       - SE_76 TG@peekfun
-      - SE_77 TG@peekfun
-      - 🇹🇼 TW_79 TG@peekfun
+      - 🇹🇼 TW_78 TG@peekfun
+      - 🇺🇸 US_79 TG@peekfun
       - 🇺🇸 US_80 TG@peekfun
       - 🇺🇸 US_81 TG@peekfun
       - 🇺🇸 US_82 TG@peekfun
@@ -741,6 +808,11 @@ proxy-groups:
       - 🇺🇸 US_94 TG@peekfun
       - 🇺🇸 US_95 TG@peekfun
       - 🇺🇸 US_96 TG@peekfun
+      - 🇺🇸 US_97 TG@peekfun
+      - 🇺🇸 US_98 TG@peekfun
+      - 🇺🇸 US_99 TG@peekfun
+      - 🇺🇸 US_100 TG@peekfun
+      - VN_109 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
