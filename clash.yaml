@@ -3533,20 +3533,20 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
- - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
- - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
- - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
- - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
- - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
- - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
- - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
+ - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+ - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
