@@ -66,7 +66,7 @@ trojan节点订阅地址
 - https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/clash.yaml (备用)
 ##### 注意：有部分窝友反馈，配置文件更新错误。这一般都是由于配置中节点全部失效导致的。
 ##### 解释：在默认规则中github网址流量经由代理；备用地址“ghproxy.fsou.cc”为海外ip域名，默认也是走代理。
-##### 解决：将“ghproxy.fsou.cc”添加至非代理规则中。具体操作请参照：[点击访问](https://www.huwo.ml/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/#more "点击访问")
+##### 解决：将“ghproxy.fsou.cc”添加至非代理规则中。具体操作请参照：[点击访问](https://www.huwo.ml/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/#more "点击访问") (网址如果手机无法访问，用电脑浏览器试试)
 - clash for windows
 - http://cdn.hwgfw.xyz/f/308478-528995138-5f6dbb
 - （访问密码：7728）
