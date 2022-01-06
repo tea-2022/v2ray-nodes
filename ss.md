@@ -6,7 +6,7 @@
 <head>
 
 
-<title>ss.dswang.ga | 523: Origin is unreachable</title>
+<title>ss.dswang.ga | 522: Connection timed out</title>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
@@ -26,11 +26,11 @@
             <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
               
               <span class="cf-error-type">Error</span>
-              <span class="cf-error-code">523</span>
+              <span class="cf-error-code">522</span>
             </h1>
-            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6c93bf7c616233fc &bull;</span>
-            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2022-01-06 08:59:06 UTC</span>
-            <h2 class="text-gray-600 leading-1.3 text-3xl font-light">Origin is unreachable</h2>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6c94ca12f15580ad &bull;</span>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2022-01-06 12:01:17 UTC</span>
+            <h2 class="text-gray-600 leading-1.3 text-3xl font-light">Connection timed out</h2>
         </header>
         
         <div class="my-8 bg-gradient-gray">
@@ -76,7 +76,7 @@
             <div class="clearfix">
                 <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
                     <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
-                    <p>The origin web server is not reachable.</p>
+                    <p>The initial connection between Cloudflare's network and the origin web server timed out. As a result, the web page can not be displayed.</p>
                 </div>
               
                 <div class="w-1/2 md:w-full float-left leading-relaxed">
@@ -85,7 +85,7 @@
       <p class="mb-6">Please try again in a few minutes.</p>
 
       <h3 class="text-15 font-semibold mb-2">If you're the owner of this website:</h3>
-      <p><span>Check your DNS Settings. A 523 error means that Cloudflare could not reach your host web server. The most common cause is that your DNS settings are incorrect. Please contact your hosting provider to confirm your origin IP and then make sure the correct IP is listed for your A record in your Cloudflare DNS Settings page.</span> <a rel="noopener noreferrer" href="https://support.cloudflare.com/hc/en-us/articles/200171946-Error-523">Additional troubleshooting information here.</a></p>
+      <p><span>Contact your hosting provider letting them know your web server is not completing requests. An Error 522 means that the request was able to connect to your web server, but that the request didn't finish. The most likely cause is that something on your server is hogging resources.</span> <a rel="noopener noreferrer" href="https://support.cloudflare.com/hc/en-us/articles/200171906-Error-522">Additional troubleshooting information here.</a></p>
                 </div>
             </div>
               
@@ -93,7 +93,7 @@
 
         <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6c93bf7c616233fc</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6c94ca12f15580ad</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 140.238.43.55</span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
@@ -105,7 +105,7 @@
 
     </div>
 </div>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6c93bf7c5bd433fc","version":"2021.12.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6c94ca12ed4180ad","version":"2021.12.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
 
