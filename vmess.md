@@ -4,49 +4,64 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
-<title>Origin DNS error | ss.dswang.ga | Cloudflare</title>
+<title>Worker threw exception | free.dswang.ga | Cloudflare</title></title>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <meta name="robots" content="noindex, nofollow" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" type="text/css" media="screen,projection" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
 
 
-<script defer src="https://api.radar.cloudflare.com/beacon.js"></script>
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
 </head>
 <body>
   <div id="cf-wrapper">
-    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
-    <div id="cf-error-details" class="p-0">
-      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
-         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
-           <span data-translate="error">Error</span>
-           <span>1016</span>
-         </h1>
-         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6d0039b6a26733f6 &bull;</span>
-         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2022-01-19 12:57:00 UTC</span>
-        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">Origin DNS error</h2>
-      </header>
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+        <h1>
+          <span class="cf-error-type" data-translate="error">Error</span>
+          <span class="cf-error-code">1101</span>
+          <small class="heading-ray-id">Ray ID: 6d003b73bb3d3505 &bull; 2022-01-19 13:03:55 UTC</small>
+        </h1>
+        <h2 class="cf-subheadline" data-translate="error_desc">Worker threw exception</h2>
+      </div><!-- /.header -->
 
-      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
-          <div id="what-happened-section" class="w-1/2 md:w-full">
-            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
-            <p>You've requested a page on a website (ss.dswang.ga) that is on the <a data-orig-proto="https" data-orig-ref="www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. Cloudflare is currently unable to resolve your requested domain (ss.dswang.ga).
-            
+      <section></section><!-- spacer -->
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="what_happened">What happened?</h2>
+            <p>You've requested a page on a website (free.dswang.ga) that is on the <a data-orig-proto="https" data-orig-ref="www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. An unknown error occurred while rendering the page.</p>
           </div>
 
           
-          <div id="resolution-copy-section" class="w-1/2 mt-6 text-15 leading-normal">
-            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_can_i_do">What can I do?</h2>
-            <p><strong>If you are a visitor of this website:</strong><br />Please try again in a few minutes.</p><p><strong>If you are the owner of this website:</strong><br />Check your DNS settings. If you are using a CNAME origin record, make sure it is valid and resolvable. <a rel="noopener noreferrer" href="https://support.cloudflare.com/hc/en-us/articles/234979888-Error-1016-Origin-DNS-error">Additional troubleshooting information here.</a></p>
+          <div class="cf-column">
+            <h2 data-translate="what_can_i_do">What can I do?</h2>
+            <p><strong>If you are the owner of this website:</strong><br />you should <a data-orig-proto="https" data-orig-ref="www.cloudflare.com/login?utm_source=error_100x" target="_blank">login to Cloudflare</a> and check the error logs for free.dswang.ga.</p>
           </div>
           
-      </section>
+        </div>
+      </div><!-- /.section -->
 
       <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d0039b6a26733f6</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d003b73bb3d3505</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 140.238.43.55</span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
@@ -65,7 +80,6 @@
   
 </script>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6d003711ff8633f6","version":"2021.12.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
 
