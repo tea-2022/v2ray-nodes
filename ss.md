@@ -15,11 +15,6 @@
 <link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" type="text/css" media="screen,projection" />
 
 
-<script type="text/javascript">
-(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:521,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
-b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
-</script>
-
 </head>
 <body>
 <div id="cf-wrapper">
@@ -33,8 +28,8 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
               <span class="cf-error-type">Error</span>
               <span class="cf-error-code">521</span>
             </h1>
-            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6da65f31320780f3 &bull;</span>
-            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2022-02-08 16:53:03 UTC</span>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 6da660a4002a807d &bull;</span>
+            <span class="inline-block sm:block font-mono text-15 lg:text-sm lg:leading-relaxed">2022-02-08 16:54:01 UTC</span>
             <h2 class="text-gray-600 leading-1.3 text-3xl font-light">Web server is down</h2>
         </header>
         
@@ -96,22 +91,9 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
               
         </div>
 
-        
-        <div class="feedback-hidden py-8 text-center" id="error-feedback">
-           <div id="error-feedback-survey">
-              Was this page helpful?
-              <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
-              <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
-           </div>
-           <div class="feedback-success feedback-hidden" id="error-feedback-success">
-              Thank you for your feedback!
-           </div>
-        </div>
-        
-
         <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6da65f31320780f3</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6da660a4002a807d</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 140.238.43.55</span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
@@ -123,7 +105,7 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 
     </div>
 </div>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6da65f311d1780f3","version":"2021.12.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6da660a3fdb8807d","version":"2021.12.0","r":1,"token":"fd425e38dfb54af79a3735cf69df1219","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
 
