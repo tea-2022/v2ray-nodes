@@ -11,20 +11,15 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 
 #### 节点订阅（由于github在国内访问不稳定，可选用备用地址。）
 综合节点订阅地址
-+ ([https://github.com/colatiger/v2ray-nodes/raw/master/proxy.md](https://github.com/colatiger/v2ray-nodes/raw/master/proxy.md))
-+ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/proxy.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/proxy.md))（备用地址）
-
++ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md))
 ss节点订阅地址
-+ ([https://github.com/colatiger/v2ray-nodes/raw/master/ss.md](https://github.com/colatiger/v2ray-nodes/raw/master/ss.md))
-+ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/ss.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/ss.md))（备用地址）
++ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md))
 
 vmess节点订阅地址
-+ ([https://github.com/colatiger/v2ray-nodes/raw/master/vmess.md](https://github.com/colatiger/v2ray-nodes/raw/master/vmess.md))
-+ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/vmess.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/vmess.md))（备用地址）
++ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md))
 
 trojan节点订阅地址
-+ ([https://github.com/colatiger/v2ray-nodes/raw/master/trojan.md](https://github.com/colatiger/v2ray-nodes/raw/master/trojan.md))
-+ ([https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/trojan.md](https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/trojan.md))（备用地址）
++ ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md))
 
 #### 适用APP
 
@@ -62,12 +57,10 @@ trojan节点订阅地址
 #### <font color=red>clash专区</font>
 - 有效节点数量保持在数十个。
 - 配置文件在线地址：
-- https://github.com/colatiger/v2ray-nodes/raw/master/clash.yaml
-- https://ghproxy.fsou.cc/https://github.com/colatiger/v2ray-nodes/blob/master/clash.yaml (备用1)
-- https://cdn.staticaly.com/gh/colatiger/v2ray-nodes/master/clash.yaml (备用2)
-##### 注意：有部分窝友反馈，配置文件更新错误。这一般都是由于配置中节点全部失效导致的。
-##### 解释：在默认规则中github网址流量经由代理；备用地址“ghproxy.fsou.cc”为海外ip域名，默认也是走代理。
-##### 解决：将“ghproxy.fsou.cc”添加至非代理规则中。具体操作请参照：[点击访问](https://www.huwo.ml/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/#more "点击访问") (网址如果手机无法访问，用电脑浏览器试试)
+- https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/clash.yaml
+##### ~~注意：有部分窝友反馈，配置文件更新错误。这一般都是由于配置中节点全部失效导致的。~~
+##### ~~解释：在默认规则中github网址流量经由代理；备用地址“ghproxy.fsou.cc”为海外ip域名，默认也是走代理。~~
+##### ~~解决：将“ghproxy.fsou.cc”添加至非代理规则中。具体操作请参照：[点击访问](https://www.huwo.ml/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/#more "点击访问") (网址如果手机无法访问，用电脑浏览器试试)~~
 - clash for windows
 - http://cdn.hwgfw.xyz/f/308478-528995138-5f6dbb
 - （访问密码：7728）
