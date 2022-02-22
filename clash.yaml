@@ -23,7 +23,6 @@ proxies:
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372, server: jike-gzyd.jiserver.xyz, port: 29705, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}}
   - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK_652, server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk01.fans8.xyz}}
@@ -63,7 +62,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -103,7 +101,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -143,7 +140,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -182,7 +178,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -221,7 +216,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -260,7 +254,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -300,7 +293,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
@@ -356,7 +348,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_372
       - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_375
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_376
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_382
       - 🇭🇰 HK_652
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_653
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_660
