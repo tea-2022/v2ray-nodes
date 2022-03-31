@@ -30,7 +30,6 @@ proxies:
   - {name: 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696, server: 156.234.95.72, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 156.234.95.72}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697, server: xe3rayu3.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: xe3rayu3.com}}
   - {name: 🇭🇰 Pool_🇭🇰HK_698, server: 43.229.115.134, port: 47950, type: vmess, uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699, server: 5.ezydfdd.com, port: 443, type: vmess, uuid: 89fefb2d-c4a6-45be-fe1e-11bd949f91b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 5.ezydfdd.com}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700, server: HK.Support-Putin-Kill-all-Ukrainians.884899.cf, port: 443, type: vmess, uuid: 99ed06cf-659a-4952-a3ae-4a9b8b473db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: HK.Support-Putin-Kill-all-Ukrainians.884899.cf}}
   - {name: 🇭🇰 HK_701, server: 103.253.43.177, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702, server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
@@ -71,7 +70,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -112,7 +110,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -153,7 +150,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -193,7 +189,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -233,7 +228,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -273,7 +267,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -314,7 +307,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
@@ -371,7 +363,6 @@ proxy-groups:
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_696
       - 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_697
       - 🇭🇰 Pool_🇭🇰HK_698
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_699
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_700
       - 🇭🇰 HK_701
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_702
