@@ -5,189 +5,157 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425, server: 120.233.10.182, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: windows.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445, server: 120.233.10.182, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: t.me/vpnhat}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447, server: 120.233.10.182, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: e167063277.microsoft.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452, server: yy01.nfeng6.pp.ua, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: e167067249.microsoft.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453, server: 120.233.10.182, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: t.me/vpnhat}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457, server: yy01.nfeng6.pp.ua, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466, server: gz1.52168.xyz, port: 1112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472, server: 120.233.10.182, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 63277:a4XecS, obfs-param: e167063277.microsoft.com}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490, server: 115.236.135.90, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 115.236.135.90}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493, server: 117.50.106.86, port: 3389, type: trojan, password: edf497f40f71aeeb, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK_855, server: 137.116.161.188, port: 6622, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 137.116.161.188}}
-  - {name: 🇭🇰 HK_856, server: 210.3.245.46, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /D1LYYDHH, ws-headers: {Host: 210.3.245.46}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857, server: hk02.bosaidong.buzz, port: 8080, type: vmess, uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 TW_1591, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇨🇳 TW_1592, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}}
-  - {name: 🇨🇳 TW_1593, server: 61.222.202.213, port: 12880, type: vmess, uuid: d4b64497-2773-4281-96f1-fc2914ea3c28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.213}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418, server: 120.233.10.182, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: t.me/vpnhat}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429, server: yy01.nfeng6.pp.ua, port: 5702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 67249:ojZU44, obfs-param: e167067249.microsoft.com}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439, server: yy01.nfeng6.pp.ua, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459, server: 115.236.135.90, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 115.236.135.90}}
+  - {name: 🇭🇰 HK_808, server: 137.116.161.188, port: 6622, type: vmess, uuid: 1c76d079-f161-45a8-a1c9-a720a3c3c44e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 137.116.161.188}}
+  - {name: 🇭🇰 HK_809, server: 210.3.245.46, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /D1LYYDHH, ws-headers: {Host: 210.3.245.46}}
+  - {name: 🇨🇳 TW_1511, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}}
+  - {name: 🇨🇳 TW_1512, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇨🇳 TW_1513, server: 61.222.202.213, port: 12880, type: vmess, uuid: d4b64497-2773-4281-96f1-fc2914ea3c28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.213}}
+  - {name: 🇨🇳 TW_1514, server: 60.249.3.229, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 Pool_🇹🇼TW_1515, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 Pool_🇹🇼TW_1516, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW_1517, server: 60.249.3.229, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,24 +178,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_425
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_445
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_447
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_452
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_453
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_457
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_458
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_462
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_466
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_472
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_490
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_493
-      - 🇭🇰 HK_855
-      - 🇭🇰 HK_856
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_857
-      - 🇨🇳 TW_1591
-      - 🇨🇳 TW_1592
-      - 🇨🇳 TW_1593
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_418
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_429
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_439
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_454
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_459
+      - 🇭🇰 HK_808
+      - 🇭🇰 HK_809
+      - 🇨🇳 TW_1511
+      - 🇨🇳 TW_1512
+      - 🇨🇳 TW_1513
+      - 🇨🇳 TW_1514
+      - 🇨🇳 Pool_🇹🇼TW_1515
+      - 🇨🇳 Pool_🇹🇼TW_1516
+      - 🇨🇳 TW_1517
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
