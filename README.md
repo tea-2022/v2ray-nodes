@@ -12,6 +12,7 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 #### 节点订阅（由于github在国内访问不稳定，可选用备用地址。）
 综合节点订阅地址
 + ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md))
+
 ss节点订阅地址
 + ([https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md](https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md))
 
@@ -31,10 +32,10 @@ trojan节点订阅地址
 
 #### 已自测的手机APP（测试手机：小米11 ultra）
 ##### clash安卓最新版
-- http://cdn.hwgfw.xyz/f/308478-509500852-d85c04
+- http://cdn.hwgfw.xyz/f/308478-567968489-2d04f0
 - 访问密码：7728
 ##### v2ray安卓最新版
-- http://cdn.hwgfw.xyz/f/308478-509500834-60171c
+- http://cdn.hwgfw.xyz/f/308478-567968726-ab0040
 - 访问密码：7728
 ##### ~~Tenta浏览器 会员破解 高级版（推荐！N多节点，油管高清不卡顿）~~貌似已失效，等后续更新！
 - ~~http://cdn.hwgfw.xyz/f/308478-509500385-811dc8~~
@@ -42,16 +43,16 @@ trojan节点订阅地址
 
 ##### 稳定安全的全平台翻墙工具，非会员有限速，但流畅看油管480P没问题，无流量限制
 - windows端（win7+）
-- http://cdn.hwgfw.xyz/f/308478-510664052-1b88f8
+- http://cdn.hwgfw.xyz/f/308478-567968698-25e909
 - （访问密码：7728）
 - mac端
-- http://cdn.hwgfw.xyz/f/308478-510662038-a739f8
+- http://cdn.hwgfw.xyz/f/308478-567968662-defd31
 - （访问密码：7728）
 - 安卓端（android5+）
-- http://cdn.hwgfw.xyz/f/308478-510657908-152949
+- http://cdn.hwgfw.xyz/f/308478-567968570-180935
 - （访问密码：7728）
 - linux端
-- http://cdn.hwgfw.xyz/f/308478-510659425-c91d87
+- http://cdn.hwgfw.xyz/f/308478-567968616-418311
 - （访问密码：7728）
 
 #### <font color=red>clash专区</font>
@@ -62,16 +63,16 @@ trojan节点订阅地址
 ##### ~~解释：在默认规则中github网址流量经由代理；备用地址“ghproxy.fsou.cc”为海外ip域名，默认也是走代理。~~
 ##### ~~解决：将“ghproxy.fsou.cc”添加至非代理规则中。具体操作请参照：[点击访问](http://www.huwo.club/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/"点击访问") (网址如果手机无法访问，用电脑浏览器试试)~~
 - clash for windows
-- http://cdn.hwgfw.xyz/f/308478-528995138-5f6dbb
+- http://cdn.hwgfw.xyz/f/308478-567968563-72b972
 - （访问密码：7728）
 - clash for mac
-- http://cdn.hwgfw.xyz/f/308478-528994937-95c39a
+- http://cdn.hwgfw.xyz/f/308478-567968499-5d15c0
 - （访问密码：7728）
 - clash for linux
-- http://cdn.hwgfw.xyz/f/308478-528994693-a00487
+- http://cdn.hwgfw.xyz/f/308478-567968494-52bcbc
 - （访问密码：7728）
 - clash for android
-- http://cdn.hwgfw.xyz/f/308478-528994464-55026e
+- http://cdn.hwgfw.xyz/f/308478-567968489-2d04f0
 - （访问密码：7728）
 
 #### 支付宝搜索<font color=red>751973047</font>领取大额红包!!!
