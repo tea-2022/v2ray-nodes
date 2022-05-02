@@ -61,7 +61,7 @@ trojan节点订阅地址
 - https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/clash.yaml
 ##### 注意：有部分窝友反馈，配置文件更新错误。这一般都是由于配置中节点全部失效导致的。
 ##### 解释：在默认规则中github网址流量经由代理；备用地址“jsdelivr.net”为海外ip域名，默认也是走代理。
-##### 解决：将“jsdelivr.net”添加至非代理规则中。具体操作请参照：[点击访问](http://www.huwo.club/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/"点击访问") (网址如果手机无法访问，用电脑浏览器试试)
+##### 解决：将“jsdelivr.net”添加至非代理规则中。具体操作请参照：[点击访问](http://www.huwo.club/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/) (网址如果手机无法访问，用电脑浏览器试试)
 
 - v2ray for windows
 - http://cdn.hwgfw.xyz/f/308478-567968763-49d7c9
