@@ -6,15 +6,18 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: _01, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: LT_05, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: ZZ_08, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: ZZ_09, server: 103.172.116.9, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
-  - {name: ZZ_10, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03, server: zzcm08.bdate.xyz, port: 1280, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04, server: zzcm08.bdate.xyz, port: 2570, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_06, server: an011.oioav.com, port: 52306, type: trojan, password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_07, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre}
+  - {name: LT_08, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: ZZ_12, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: ZZ_13, server: 134.195.196.51, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇳 CN_02, server: zzcm04.bdate.xyz, port: 1020, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04, server: zzcm08.bdate.xyz, port: 1280, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05, server: zzcm08.bdate.xyz, port: 2570, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube}}}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06, server: cn-southern-cm-03.xenoconnect.com, port: 40005, type: vmess, uuid: 60942ef2-6f53-4692-a85f-f06bc45961cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cn-southern-cm-03.xenoconnect.com}}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_09, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_10, server: xr-4.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-4.herokuapp.com}}}
+  - {name: 🇺🇲 US_11, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}}
+  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: 8067a01e-b77d-4b35-aee6-1b7082b60f27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,30 +25,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -53,60 +62,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,15 +149,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _01
-      - LT_05
-      - ZZ_08
-      - ZZ_09
-      - ZZ_10
-      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_02
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_03
+      - LT_08
+      - ZZ_12
+      - ZZ_13
+      - 🇨🇳 CN_02
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_03
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_04
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_06
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_07
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_05
+      - 🇨🇳 Relay_🇨🇳CN-🏁ZZ_06
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_09
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_10
+      - 🇺🇲 US_11
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_07
 rules:
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
