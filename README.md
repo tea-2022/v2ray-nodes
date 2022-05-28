@@ -9,7 +9,7 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 - clash等其他不能直接使用订阅地址的用户，请自行前往节点转换托管平台([https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/ "https://acl4ssr-sub.github.io/"))进行转换。
 - ss.md 为ss节点，trojan.md 为trojan节点，vmess.md 为v2ray节点，proxy.md 为综合节点，clash.yaml 为clash配置文件。
 
-#### 节点订阅（由于github在国内访问不稳定，可选用备用地址。）
+#### 节点订阅（能用github原地址的，尽量用原地址。）
 综合节点订阅地址
 + ([https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md](https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md))
 
