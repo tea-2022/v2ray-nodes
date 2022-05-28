@@ -30,30 +30,22 @@ trojan节点订阅地址
 
 - 请自行查阅各APP的使用教程。
 
-#### 已自测的手机APP（测试手机：小米11 ultra）
+#### 测试手机：小米11 ultra
+##### 首先感谢各位朋友对本人的支持，为了给各位更好的体验，现取消广告网盘，用直链的方式给大家分享资源。
 ##### clash安卓最新版
-- http://cdn.hwgfw.xyz/f/308478-567968489-2d04f0
-- 访问密码：7728
+- https://dwz.huwo.club/fxe
 ##### v2ray安卓最新版
-- http://cdn.hwgfw.xyz/f/308478-567968726-ab0040
-- 访问密码：7728
-##### ~~Tenta浏览器 会员破解 高级版（推荐！N多节点，油管高清不卡顿）~~貌似已失效，等后续更新！
-- ~~http://cdn.hwgfw.xyz/f/308478-509500385-811dc8~~
-- ~~访问密码：7728~~
+- https://dwz.huwo.club/pry
 
 ##### 稳定安全的全平台翻墙工具，非会员有限速，但流畅看油管480P没问题，无流量限制
 - windows端（win7+）
-- http://cdn.hwgfw.xyz/f/308478-567968698-25e909
-- （访问密码：7728）
+- https://dwz.huwo.club/8s0
 - mac端
-- http://cdn.hwgfw.xyz/f/308478-567968662-defd31
-- （访问密码：7728）
+- https://dwz.huwo.club/1dx
 - 安卓端（android5+）
-- http://cdn.hwgfw.xyz/f/308478-567968570-180935
-- （访问密码：7728）
+- https://dwz.huwo.club/3go
 - linux端
-- http://cdn.hwgfw.xyz/f/308478-567968616-418311
-- （访问密码：7728）
+- https://dwz.huwo.club/hdx
 
 #### <font color=red>clash专区</font>
 - 有效节点数量保持在数十个。
@@ -61,27 +53,21 @@ trojan节点订阅地址
 - https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/clash.yaml
 ##### 注意：有部分窝友反馈，配置文件更新错误。这一般都是由于配置中节点全部失效导致的。
 ##### 解释：在默认规则中github网址流量经由代理；备用地址“jsdelivr.net”为海外ip域名，默认也是走代理。
-##### 解决：将“jsdelivr.net”添加至非代理规则中。具体操作请参照：[点击访问](http://www.huwo.club/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/clash%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%E4%B8%8EBYPASS%E7%9A%84%E8%A7%84%E5%88%99%E5%86%99%E6%B3%95/) (网址如果手机无法访问，用电脑浏览器试试)
+##### 解决：将“jsdelivr.net”添加至非代理规则中。具体操作请参照：[点击访问](https://www.huwo.club/posts/clash_bypass.html)
 
 - v2ray for windows
-- http://cdn.hwgfw.xyz/f/308478-567968763-49d7c9
-- （访问密码：7728）
+- https://dwz.huwo.club/711d29
 - v2ray for android
-- http://cdn.hwgfw.xyz/f/308478-567968726-ab0040
-- （访问密码：7728）
+- https://dwz.huwo.club/pry
+- v2ray for mac端
+- https://dwz.huwo.club/mza
 
 - clash for windows
-- http://cdn.hwgfw.xyz/f/308478-567968563-72b972
-- （访问密码：7728）
+- https://dwz.huwo.club/93acd5
 - clash for mac
-- http://cdn.hwgfw.xyz/f/308478-567968499-5d15c0
-- （访问密码：7728）
-- clash for linux
-- http://cdn.hwgfw.xyz/f/308478-567968494-52bcbc
-- （访问密码：7728）
+- https://dwz.huwo.club/6de
 - clash for android
-- http://cdn.hwgfw.xyz/f/308478-567968489-2d04f0
-- （访问密码：7728）
+- https://dwz.huwo.club/fxe
 
 #### 支付宝搜索<font color=red>751973047</font>领取大额红包!!!
 
