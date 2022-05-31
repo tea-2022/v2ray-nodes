@@ -5,689 +5,535 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 217.138.193.6:803, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 217.138.193.6:809, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 185.167.116.252:9080, server: 185.167.116.252, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: 198.57.27.225:5500, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 198.57.27.225:8118, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 fkgfw-prod.i.sxl.cn:443, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f}
-  - {name: 139.219.130.70:443, server: 139.219.130.70, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f}
-  - {name: 5.183.179.137:9010, server: 5.183.179.137, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: 5.183.179.141:9000, server: 5.183.179.141, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
-  - {name: 5.183.179.146:9037, server: 5.183.179.146, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: 5.183.179.146:9060, server: 5.183.179.146, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
-  - {name: 185.167.117.171:9094, server: 185.167.117.171, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: 213.183.53.202:9046, server: 213.183.53.202, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: 213.183.53.179:9005, server: 213.183.53.179, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 213.183.53.179:9079, server: 213.183.53.179, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
-  - {name: 213.183.53.202:9040, server: 213.183.53.202, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
-  - {name: 213.183.53.202:9008, server: 213.183.53.202, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
-  - {name: 213.183.63.221:9010, server: 213.183.63.221, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: 213.183.63.219:9033, server: 213.183.63.219, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: 213.183.63.218:9038, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 213.183.53.207:9088, server: 213.183.53.207, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn}
-  - {name: 213.183.53.208:9008, server: 213.183.53.208, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
-  - {name: 213.183.63.221:9060, server: 213.183.63.221, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
-  - {name: 213.183.53.207:9079, server: 213.183.53.207, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
-  - {name: 213.183.63.218:9070, server: 213.183.63.218, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
-  - {name: 213.183.53.207:9097, server: 213.183.53.207, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
-  - {name: 213.183.63.219:9079, server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
-  - {name: 213.183.63.221:9094, server: 213.183.63.221, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: 213.183.59.211:9027, server: 213.183.59.211, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
-  - {name: 213.183.59.229:9025, server: 213.183.59.229, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: 213.183.51.171:9040, server: 213.183.51.171, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
-  - {name: 213.183.59.206:9088, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn}
-  - {name: 85.208.108.58:8080, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 185.126.116.124:9027, server: 185.126.116.124, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
-  - {name: 185.126.116.117:9050, server: 185.126.116.117, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
-  - {name: 217.30.10.67:9025, server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: 217.30.10.66:9041, server: 217.30.10.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
-  - {name: 185.4.65.6:21247, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: 217.30.10.67:9056, server: 217.30.10.67, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
-  - {name: 38.143.66.20:9102, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 167.88.63.60:2376, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 167.88.61.50:5003, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 38.114.114.69:5001, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 38.68.135.18:9101, server: 38.68.135.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 38.68.135.18:5003, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 38.114.114.69:8882, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 167.88.61.50:7307, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 38.114.114.69:6679, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 38.68.134.71:8119, server: 38.68.134.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 38.68.134.71:2376, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 38.68.135.19:5004, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 38.68.134.71:7307, server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 38.68.135.19:7306, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 167.88.61.50:5004, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 169.197.142.99:5004, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 169.197.142.99:6679, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 169.197.142.39:8888, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 169.197.142.39:5004, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 169.197.142.39:9102, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 169.197.142.99:7001, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: "", server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
-  - {name: " 2", server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
-  - {name: " 3", server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 511hk.fans8.xyz}}}
-  - {name: " 4", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: " 5", server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: " 6", server: cm01.db-link.in, port: 13302, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /db, headers: {Host: cm01.db-link.in}}}
-  - {name: " 7", server: cmi.db-link.in, port: 21154, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /db, headers: {Host: cmi.db-link.in}}}
-  - {name: " 8", server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: " 9", server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
-  - {name: " 10", server: 18.163.37.30, port: 30273, type: vmess, uuid: e29b7b4b-f34b-429a-9955-4d36ba76c1c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}}
-  - {name: " 11", server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}}
-  - {name: " 12", server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false}
-  - {name: " 13", server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray3.bonds.id}}}
-  - {name: " 14", server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false}
-  - {name: " 15", server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: " 16", server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false}
-  - {name: " 17", server: 129.226.215.211, port: 49981, type: vmess, uuid: 876631b4-3f5c-4289-f266-3c7afa5b9e70, alterId: 0, cipher: auto, tls: false}
-  - {name: " 18", server: 129.226.216.124, port: 14728, type: vmess, uuid: eea3d090-e068-4b74-8039-91fd79218d1a, alterId: 0, cipher: auto, tls: false}
-  - {name: " 19", server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: " 20", server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false}
-  - {name: " 21", server: 172.64.93.136, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX4, headers: {Host: sg.wweblog.pw}}}
-  - {name: " 22", server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-5.herokuapp.com}}}
-  - {name: " 23", server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: " 24", server: 23.19.26.204, port: 55212, type: vmess, uuid: bb8a118d-dd20-4146-a989-2e24f1576b15, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r76ofJah/, headers: {Host: 23.19.26.204}}}
-  - {name: " 25", server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: au2-4.nigirocloud.com:443, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
-  - {name: au2-1.nigirocloud.com:443, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
-  - {name: au2-3.nigirocloud.com:443, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
-  - {name: jp2.bpyun.live:443, server: jp2.bpyun.live, port: 443, type: trojan, password: 9b209d34-0f5b-307d-b8d1-a63c8cc47303}
-  - {name: jp1.v2yyds.cc:32111, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2}
-  - {name: v2cross.com.04.v2ce.com:443, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M}
-  - {name: v2cross.com.05.v2ce.com:443, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE}
-  - {name: ss2.2046.gq:4443, server: ss2.2046.gq, port: 4443, type: trojan, password: 554ba845-2610-4aee-86fc-d2080ff1c4a6}
+  - {name: AE_03, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: AE_04, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: AE_05, server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 DE_11, server: 5.183.179.141, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
+  - {name: 🇩🇪 DE_12, server: 5.183.179.166, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: 🇩🇪 DE_13, server: 5.183.179.141, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: LT_23, server: 213.183.53.207, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
+  - {name: LT_24, server: 213.183.53.202, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
+  - {name: LT_25, server: 213.183.53.202, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
+  - {name: LT_26, server: 213.183.53.179, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: LT_27, server: 213.183.53.207, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY}
+  - {name: LT_28, server: 213.183.53.207, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: 🇳🇱 NL_29, server: 213.183.59.214, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
+  - {name: 🇳🇱 NL_30, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇳🇱 NL_31, server: 213.183.59.185, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: 🇳🇱 NL_32, server: 213.183.59.185, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
+  - {name: 🇷🇺 RU_34, server: 217.30.10.67, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
+  - {name: 🇷🇺 RU_35, server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
+  - {name: 🇺🇲 US_45, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 US_46, server: 38.68.134.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇲 US_47, server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 US_48, server: 34.211.206.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇲 US_49, server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇲 US_50, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_51, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 US_52, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_68, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_69, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_70, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇷🇺 Relay_-🇷🇺RU_01, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 Relay_-🇩🇪DE_02, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_07, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 511hk.fans8.xyz}}}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_08, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10, server: cm01.db-link.in, port: 13302, type: vmess, uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /db, headers: {Host: cm01.db-link.in}}}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
+  - {name: 🇫🇷 FR_18, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19, server: ocrb1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}}
+  - {name: 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22, server: v2-5.godlight.xyz, port: 250, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}}
+  - {name: 🇸🇬 SG_36, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 SG_37, server: 129.226.95.143, port: 45381, type: vmess, uuid: cd2a260c-f244-4e12-83c3-8a259cf29fc6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38, server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray3.bonds.id}}}
+  - {name: 🇸🇬 SG_39, server: 129.226.93.161, port: 40236, type: vmess, uuid: 931416fe-98f2-4098-c8e7-3634e27ce6f4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG_40, server: 129.226.94.134, port: 31149, type: vmess, uuid: 883557f2-88c9-4963-bd0e-2083353f7901, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG_41, server: 129.226.217.153, port: 15184, type: vmess, uuid: bb02fa5b-1d15-46f4-fa47-053c6db61e39, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG_42, server: 129.226.95.71, port: 56916, type: vmess, uuid: 29d4cfd8-9aea-4796-9320-b2b9234fc141, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG_43, server: 129.226.216.160, port: 49056, type: vmess, uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_53, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇲 Pool_🇺🇸US_54, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇲 US_55, server: hk02.bosaidong.buzz, port: 443, type: vmess, uuid: 96e19c0c-ba2f-47cf-b1d6-efef8f8fbb4d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /JJkuv3, headers: {Host: a.189.cn}}}
+  - {name: 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56, server: v2-1.godlight.xyz, port: 250, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}}
+  - {name: 🇺🇲 US_57, server: hk01.bosaidong.buzz, port: 444, type: vmess, uuid: 96e19c0c-ba2f-47cf-b1d6-efef8f8fbb4d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /JJkuv3, headers: {Host: a.189.cn}}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58, server: 172.64.93.136, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX4, headers: {Host: sg.wweblog.pw}}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_59, server: streaming-1-route.teacher2050.com, port: 31222, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 US_60, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇲 US_61, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_62, server: u4.anmu.one, port: 16199, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇲 US_63, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇲 US_64, server: 45.61.174.36, port: 31325, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: ZZ_71, server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06, server: tx49sg.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_09, server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21, server: jp1.v2yyds.cc, port: 32111, type: trojan, password: c0669346-7ba9-4fda-91a4-238fb8d0a4d2}
+  - {name: Relay_🇺🇦UA-🇺🇦UA_44, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_65, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_66, server: o20.trojan.tel, port: 38443, type: trojan, password: 6e84d7c6-fe40-4299-8083-fda43ea9e6f7}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_67, server: cc.tianxiedaiweige.tk, port: 443, type: trojan, password: 662dde24-c50c-4011-82b0-5c306afc56f2}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -708,99 +554,77 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 217.138.193.6:803
-      - 217.138.193.6:809
-      - 185.167.116.252:9080
-      - 198.57.27.225:5500
-      - 198.57.27.225:8118
-      - 🇨🇳 fkgfw-prod.i.sxl.cn:443
-      - 139.219.130.70:443
-      - 5.183.179.137:9010
-      - 5.183.179.141:9000
-      - 5.183.179.146:9037
-      - 5.183.179.146:9060
-      - 185.167.117.171:9094
-      - 213.183.53.202:9046
-      - 213.183.53.179:9005
-      - 213.183.53.179:9079
-      - 213.183.53.202:9040
-      - 213.183.53.202:9008
-      - 213.183.63.221:9010
-      - 213.183.63.219:9033
-      - 213.183.63.218:9038
-      - 213.183.53.207:9088
-      - 213.183.53.208:9008
-      - 213.183.63.221:9060
-      - 213.183.53.207:9079
-      - 213.183.63.218:9070
-      - 213.183.53.207:9097
-      - 213.183.63.219:9079
-      - 213.183.63.221:9094
-      - 213.183.59.211:9027
-      - 213.183.59.229:9025
-      - 213.183.51.171:9040
-      - 213.183.59.206:9088
-      - 85.208.108.58:8080
-      - 185.126.116.124:9027
-      - 185.126.116.117:9050
-      - 217.30.10.67:9025
-      - 217.30.10.66:9041
-      - 185.4.65.6:21247
-      - 217.30.10.67:9056
-      - 38.143.66.20:9102
-      - 167.88.63.60:2376
-      - 167.88.61.50:5003
-      - 38.114.114.69:5001
-      - 38.68.135.18:9101
-      - 38.68.135.18:5003
-      - 38.114.114.69:8882
-      - 167.88.61.50:7307
-      - 38.114.114.69:6679
-      - 38.68.134.71:8119
-      - 38.68.134.71:2376
-      - 38.68.135.19:5004
-      - 38.68.134.71:7307
-      - 38.68.135.19:7306
-      - 167.88.61.50:5004
-      - 169.197.142.99:5004
-      - 169.197.142.99:6679
-      - 169.197.142.39:8888
-      - 169.197.142.39:5004
-      - 169.197.142.39:9102
-      - 169.197.142.99:7001
-      - ""
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 20"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - au2-4.nigirocloud.com:443
-      - au2-1.nigirocloud.com:443
-      - au2-3.nigirocloud.com:443
-      - jp2.bpyun.live:443
-      - jp1.v2yyds.cc:32111
-      - v2cross.com.04.v2ce.com:443
-      - v2cross.com.05.v2ce.com:443
-      - ss2.2046.gq:4443
+      - AE_03
+      - AE_04
+      - AE_05
+      - 🇩🇪 DE_11
+      - 🇩🇪 DE_12
+      - 🇩🇪 DE_13
+      - LT_23
+      - LT_24
+      - LT_25
+      - LT_26
+      - LT_27
+      - LT_28
+      - 🇳🇱 NL_29
+      - 🇳🇱 NL_30
+      - 🇳🇱 NL_31
+      - 🇳🇱 NL_32
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_33
+      - 🇷🇺 RU_34
+      - 🇷🇺 RU_35
+      - 🇺🇲 US_45
+      - 🇺🇲 US_46
+      - 🇺🇲 US_47
+      - 🇺🇲 US_48
+      - 🇺🇲 US_49
+      - 🇺🇲 US_50
+      - 🇺🇲 US_51
+      - 🇺🇲 US_52
+      - ZZ_68
+      - ZZ_69
+      - ZZ_70
+      - 🇷🇺 Relay_-🇷🇺RU_01
+      - 🇩🇪 Relay_-🇩🇪DE_02
+      - Relay_🇨🇦CA-🇨🇦CA_07
+      - Relay_🇨🇦CA-🇨🇦CA_08
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_10
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_17
+      - 🇫🇷 FR_18
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_19
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_20
+      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_22
+      - 🇸🇬 SG_36
+      - 🇸🇬 SG_37
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_38
+      - 🇸🇬 SG_39
+      - 🇸🇬 SG_40
+      - 🇸🇬 SG_41
+      - 🇸🇬 SG_42
+      - 🇸🇬 SG_43
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_53
+      - 🇺🇲 Pool_🇺🇸US_54
+      - 🇺🇲 US_55
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_56
+      - 🇺🇲 US_57
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_58
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_59
+      - 🇺🇲 US_60
+      - 🇺🇲 US_61
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_62
+      - 🇺🇲 US_63
+      - 🇺🇲 US_64
+      - ZZ_71
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_06
+      - Relay_🇨🇦CA-🇨🇦CA_09
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_14
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_15
+      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_16
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_21
+      - Relay_🇺🇦UA-🇺🇦UA_44
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_65
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_66
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_67
 rules:
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
