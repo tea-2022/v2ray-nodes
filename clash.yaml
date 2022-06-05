@@ -5,402 +5,402 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
-  - {name: 🇸🇬 SG_20, server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb}
-  - {name: 🇺🇲 US_23, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9}
-  - {name: 🇩🇪 Relay_-🇩🇪DE_01, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_02, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
-  - {name: _03, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_06, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_07, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
-  - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: mc.xiaohouzi.club}}}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09, server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sh.moonfree.top}}}
-  - {name: 🇸🇬 SG_21, server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22, server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray3.bonds.id}}}
-  - {name: 🇺🇲 US_24, server: 45.12.110.8, port: 36109, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_25, server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-5.herokuapp.com}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_26, server: hk.xxnmsl.com, port: 80, type: vmess, uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_27, server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: inap008.xmrth-node.xyz}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_28, server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
-  - {name: 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: yzjd01-ublubeu.koyeb.app}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_30, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /evo, headers: {Host: 1chuan.top}}}
-  - {name: 🇺🇲 US_31, server: 138.2.52.84, port: 23140, type: vmess, uuid: e03f030e-87a6-4282-9656-461732cc3b1f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_32, server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_33, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 31961, type: vmess, uuid: 94311e71-9125-4bd1-faa2-515a8667c486, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youtubt@白嫖王者, headers: {Host: bai-piao-wang-zhe-iplc6.98848.xyz}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_34, server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX2, headers: {Host: 612.wweblog.pw}}}
-  - {name: 🇺🇲 US_35, server: 5.183.32.187, port: 22610, type: vmess, uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_36, server: mrmanh85.ga, port: 10086, type: vmess, uuid: 2367f7e7-8545-44de-9300-10243555bea8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mrm, headers: {Host: mrmanh85.ga}}}
-  - {name: 🇺🇲 US_37, server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇲 US_38, server: 173.82.212.149, port: 24552, type: vmess, uuid: 601d7be0-d6cc-4e98-d721-b83b7da6fec5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_39, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_40, server: 172.64.84.233, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX1, headers: {Host: 612.wweblog.pw}}}
-  - {name: Relay_🏁ZZ-🏁ZZ_51, server: vietnam.hn14.shopvpn.net, port: 80, type: vmess, uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: quangtien.akamaized.net}}}
-  - {name: ZZ_52, server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 9c289eb1-59b1-49ff-9c80-9a3c879c654e}
-  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
-  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
-  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
-  - {name: 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15, server: gy01.20220512.cyou, port: 34568, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6}
-  - {name: Relay_🇮🇳IN-🇮🇳IN_16, server: 2.tiantang.cf, port: 59195, type: trojan, password: pA52tFTlGZ}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_41, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_42, server: shs.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_43, server: usa004.369boy.com, port: 14001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_44, server: usa006.369boy.com, port: 16001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_45, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_46, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_47, server: xjp.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_48, server: o20.trojan.tel, port: 38443, type: trojan, password: 6e84d7c6-fe40-4299-8083-fda43ea9e6f7}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_49, server: cc.tianxiedaiweige.tk, port: 443, type: trojan, password: 662dde24-c50c-4011-82b0-5c306afc56f2}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_50, server: azhk.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025}
+  - {name: 185.4.65.6:21247, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p}
+  - {name: 157.230.41.220:29596, server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb}
+  - {name: 147.182.151.24:20110, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9}
+  - {name: "", server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: " 2", server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: " 3", server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: " 4", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: " 5", server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
+  - {name: " 6", server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: mc.xiaohouzi.club}}}
+  - {name: " 7", server: ingress-i2.onebox6.org, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: " 8", server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
+  - {name: " 9", server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: " 10", server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}}
+  - {name: " 11", server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sh.moonfree.top}}}
+  - {name: " 12", server: 180.215.196.10, port: 39043, type: vmess, uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: " 13", server: v2ray3.bonds.id, port: 443, type: vmess, uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray3.bonds.id}}}
+  - {name: " 14", server: 45.12.110.8, port: 36109, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: false}
+  - {name: " 15", server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-5.herokuapp.com}}}
+  - {name: " 16", server: hk.xxnmsl.com, port: 80, type: vmess, uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: " 17", server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /index, headers: {Host: inap008.xmrth-node.xyz}}}
+  - {name: " 18", server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
+  - {name: " 19", server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: yzjd01-ublubeu.koyeb.app}}}
+  - {name: " 20", server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /evo, headers: {Host: 1chuan.top}}}
+  - {name: " 21", server: 138.2.52.84, port: 23140, type: vmess, uuid: e03f030e-87a6-4282-9656-461732cc3b1f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: " 22", server: sg01.czsx1624.tk, port: 443, type: vmess, uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3a8545177/, headers: {Host: sg01.czsx1624.tk}}}
+  - {name: " 23", server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 31961, type: vmess, uuid: 94311e71-9125-4bd1-faa2-515a8667c486, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youtubt@白嫖王者, headers: {Host: bai-piao-wang-zhe-iplc6.98848.xyz}}}
+  - {name: " 24", server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX2, headers: {Host: 612.wweblog.pw}}}
+  - {name: " 25", server: 5.183.32.187, port: 22610, type: vmess, uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e, alterId: 0, cipher: auto, tls: false}
+  - {name: " 26", server: mrmanh85.ga, port: 10086, type: vmess, uuid: 2367f7e7-8545-44de-9300-10243555bea8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mrm, headers: {Host: mrmanh85.ga}}}
+  - {name: " 27", server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: " 28", server: 173.82.212.149, port: 24552, type: vmess, uuid: 601d7be0-d6cc-4e98-d721-b83b7da6fec5, alterId: 0, cipher: auto, tls: false}
+  - {name: " 29", server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}}
+  - {name: " 30", server: 172.64.84.233, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX1, headers: {Host: 612.wweblog.pw}}}
+  - {name: " 31", server: vietnam.hn14.shopvpn.net, port: 80, type: vmess, uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shopvpn.net, headers: {Host: quangtien.akamaized.net}}}
+  - {name: " 32", server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇭🇰 527hk5.fans8.xyz:443, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 9c289eb1-59b1-49ff-9c80-9a3c879c654e}
+  - {name: kr04.wangxd.life:3052, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
+  - {name: au2-3.nigirocloud.com:443, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: au2-2.nigirocloud.com:443, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: au2-4.nigirocloud.com:443, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3}
+  - {name: gy01.20220512.cyou:34568, server: gy01.20220512.cyou, port: 34568, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6}
+  - {name: 2.tiantang.cf:59195, server: 2.tiantang.cf, port: 59195, type: trojan, password: pA52tFTlGZ}
+  - {name: kr05.wangxd.life:3052, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
+  - {name: shs.ziqiyun.xyz:443, server: shs.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025}
+  - {name: 🇺🇲 usa004.369boy.com:14001, server: usa004.369boy.com, port: 14001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6}
+  - {name: 🇺🇲 usa006.369boy.com:16001, server: usa006.369boy.com, port: 16001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6}
+  - {name: fhcarm2.gaox.ml:443, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178}
+  - {name: kr01.wangxd.life:3052, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e}
+  - {name: xjp.ziqiyun.xyz:443, server: xjp.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025}
+  - {name: o20.trojan.tel:38443, server: o20.trojan.tel, port: 38443, type: trojan, password: 6e84d7c6-fe40-4299-8083-fda43ea9e6f7}
+  - {name: cc.tianxiedaiweige.tk:443, server: cc.tianxiedaiweige.tk, port: 443, type: trojan, password: 662dde24-c50c-4011-82b0-5c306afc56f2}
+  - {name: 🇭🇰 azhk.ziqiyun.xyz:443, server: azhk.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -421,58 +421,58 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_19
-      - 🇸🇬 SG_20
-      - 🇺🇲 US_23
-      - 🇩🇪 Relay_-🇩🇪DE_01
-      - 🇷🇺 Relay_-🇷🇺RU_02
-      - _03
-      - Relay_🇨🇦CA-🇨🇦CA_06
-      - Relay_🇨🇦CA-🇨🇦CA_07
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_08
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_09
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_13
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_14
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_17
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_18
-      - 🇸🇬 SG_21
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22
-      - 🇺🇲 US_24
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_25
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_26
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_27
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_28
-      - 🇳🇱 Relay_🇺🇸US-🇳🇱NL_29
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_30
-      - 🇺🇲 US_31
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_32
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_33
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_34
-      - 🇺🇲 US_35
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_36
-      - 🇺🇲 US_37
-      - 🇺🇲 US_38
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_39
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_40
-      - Relay_🏁ZZ-🏁ZZ_51
-      - ZZ_52
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_04
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_05
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_10
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_11
-      - 🇩🇪 Relay_🇩🇪DE-🇬🇧GB_12
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_15
-      - Relay_🇮🇳IN-🇮🇳IN_16
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_41
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_42
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_43
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_44
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_45
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_46
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_47
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_48
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_49
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_50
+      - 185.4.65.6:21247
+      - 157.230.41.220:29596
+      - 147.182.151.24:20110
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 20"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - 🇭🇰 527hk5.fans8.xyz:443
+      - kr04.wangxd.life:3052
+      - au2-3.nigirocloud.com:443
+      - au2-2.nigirocloud.com:443
+      - au2-4.nigirocloud.com:443
+      - gy01.20220512.cyou:34568
+      - 2.tiantang.cf:59195
+      - kr05.wangxd.life:3052
+      - shs.ziqiyun.xyz:443
+      - 🇺🇲 usa004.369boy.com:14001
+      - 🇺🇲 usa006.369boy.com:16001
+      - fhcarm2.gaox.ml:443
+      - kr01.wangxd.life:3052
+      - xjp.ziqiyun.xyz:443
+      - o20.trojan.tel:38443
+      - cc.tianxiedaiweige.tk:443
+      - 🇭🇰 azhk.ziqiyun.xyz:443
 rules:
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
