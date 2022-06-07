@@ -5,157 +5,157 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: LT_11, server: 213.183.53.182, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
-  - {name: 🇷🇺 Relay_-🇷🇺RU_01, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 Relay_-🇩🇪DE_02, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇧🇷 BR_03, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_04, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_05, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06, server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: mc.xiaohouzi.club}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12, server: tk-nf-route.teacher2060.com, port: 31256, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_13, server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX2, headers: {Host: 612.wweblog.pw}}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_14, server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}}
-  - {name: 🇺🇲 US_15, server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: ZZ_17, server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10, server: uk.node.qchwnd.moe, port: 44613, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_16, server: gy02.20220512.cyou, port: 34567, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6}
+  - {name: 213.183.53.182:9084, server: 213.183.53.182, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: "", server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: " 2", server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false}
+  - {name: " 3", server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: " 4", server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
+  - {name: " 5", server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: " 6", server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: mc.xiaohouzi.club}}}
+  - {name: " 7", server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: " 8", server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}}
+  - {name: " 9", server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: " 10", server: tk-nf-route.teacher2060.com, port: 31256, type: vmess, uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33, alterId: 0, cipher: auto, tls: false}
+  - {name: " 11", server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xxX2, headers: {Host: 612.wweblog.pw}}}
+  - {name: " 12", server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}}
+  - {name: " 13", server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: " 14", server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇬🇧 uk.node.qchwnd.moe:44613, server: uk.node.qchwnd.moe, port: 44613, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751}
+  - {name: gy02.20220512.cyou:34567, server: gy02.20220512.cyou, port: 34567, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -176,23 +176,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - LT_11
-      - 🇷🇺 Relay_-🇷🇺RU_01
-      - 🇩🇪 Relay_-🇩🇪DE_02
-      - 🇧🇷 BR_03
-      - Relay_🇨🇦CA-🇨🇦CA_04
-      - Relay_🇨🇦CA-🇨🇦CA_05
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_06
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_07
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_08
-      - 🇫🇷 Relay_🇫🇷FR-🇺🇸US_09
-      - 🇹🇷 Relay_🇹🇷TR-🇹🇷TR_12
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_14
-      - 🇺🇲 US_15
-      - ZZ_17
-      - 🇺🇲 Relay_🇮🇹IT-🇺🇸US_10
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_16
+      - 213.183.53.182:9084
+      - ""
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - 🇬🇧 uk.node.qchwnd.moe:44613
+      - gy02.20220512.cyou:34567
 rules:
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
