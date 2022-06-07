@@ -5,7 +5,7 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 
 #### 节点资源
 - 本订阅所提供的所有节点均来自于互联网公益组织，本人只是做了一下采集和整合，免费提供给有需要的网友，因此不对节点的稳定性、可用性提供任何承诺。
-- 计划每天不定时更新数次。
+- 计划每天不定时更新数次。(目前更新时间间隔为2小时，建议你工具设置中订阅更新时间不大于2小时。)
 - clash等其他不能直接使用订阅地址的用户，请自行前往节点转换托管平台([https://acl4ssr-sub.github.io/](https://acl4ssr-sub.github.io/ "https://acl4ssr-sub.github.io/"))进行转换。
 - ss.md 为ss节点，trojan.md 为trojan节点，vmess.md 为v2ray节点，proxy.md 为综合节点，clash.yaml 为clash配置文件。
 
