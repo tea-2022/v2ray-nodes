@@ -5,105 +5,92 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_105 TG@peekfun, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: HK_106 TG@peekfun, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
-  - {name: HK_107 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: HK_108 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: HK_109 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: HK_110 TG@peekfun, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, skip-cert-verify: true, udp: true}
-  - {name: HK_111 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: HK_112 TG@peekfun, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: HK_113 TG@peekfun, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
-  - {name: SG_134 TG@peekfun, server: 206.189.156.88, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, skip-cert-verify: true, udp: true}
-  - {name: SG_135 TG@peekfun, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: SG_136 TG@peekfun, server: s69.s2022.xyz, port: 30661, type: trojan, password: 7d46f885-c7e4-30d4-8a00-36aa6530b0cf, skip-cert-verify: true, udp: true}
-  - {name: SG_137 TG@peekfun, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: SG_138 TG@peekfun, server: s244.s2022.xyz, port: 30300, type: trojan, password: 44742458-ae53-3490-aeb6-a1a23d54c2be, skip-cert-verify: true, udp: true}
-  - {name: SG_139 TG@peekfun, server: s245.s2022.xyz, port: 32686, type: trojan, password: b4cd9d4f-8e00-3eba-8693-aaf6bdca8079, skip-cert-verify: true, udp: true}
-  - {name: SG_140 TG@peekfun, server: 206.189.156.88, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: SG_141 TG@peekfun, server: 165.22.53.6, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
-  - {name: SG_142 TG@peekfun, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: SG_143 TG@peekfun, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: TW_144 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: TW_145 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: TW_146 TG@peekfun, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
-  - {name: TW_147 TG@peekfun, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
-  - {name: TW_148 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: US_149 TG@peekfun, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
-  - {name: US_150 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: US_151 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: US_152 TG@peekfun, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
-  - {name: US_153 TG@peekfun, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
-  - {name: US_154 TG@peekfun, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_155 TG@peekfun, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: US_156 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: US_157 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: US_158 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US_159 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, skip-cert-verify: true, udp: true}
-  - {name: US_160 TG@peekfun, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, skip-cert-verify: true, udp: true}
-  - {name: US_161 TG@peekfun, server: www.anlocl.gq, port: 30521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
-  - {name: US_162 TG@peekfun, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
-  - {name: US_163 TG@peekfun, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
-  - {name: US_164 TG@peekfun, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, skip-cert-verify: true, udp: true}
-  - {name: US_165 TG@peekfun, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: US_166 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US_167 TG@peekfun, server: xioix.gq, port: 443, type: trojan, password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363, skip-cert-verify: true, udp: true}
-  - {name: US_168 TG@peekfun, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: US_169 TG@peekfun, server: www.anlocl.gq, port: 20521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
-  - {name: US_170 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: US_171 TG@peekfun, server: s228.s2022.xyz, port: 42406, type: trojan, password: 3b43ffda-8b5c-3480-87f9-d4b069d7457a, skip-cert-verify: true, udp: true}
-  - {name: US_172 TG@peekfun, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, skip-cert-verify: true, udp: true}
-  - {name: US_173 TG@peekfun, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
-  - {name: US_174 TG@peekfun, server: www.anlot.tk, port: 2352, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
-  - {name: US_175 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US_176 TG@peekfun, server: a2.centaur.network, port: 8081, type: trojan, password: cdcf03f6-5326-4496-a1d1-03bb098ad56f, skip-cert-verify: true, udp: true}
-  - {name: US_177 TG@peekfun, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: US_178 TG@peekfun, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
-  - {name: US_179 TG@peekfun, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, skip-cert-verify: true, udp: true}
-  - {name: US_180 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US_181 TG@peekfun, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_182 TG@peekfun, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, skip-cert-verify: true, udp: true}
-  - {name: US_183 TG@peekfun, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_184 TG@peekfun, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, skip-cert-verify: true, udp: true}
-  - {name: US_185 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: HK_112 TG@peekfun, server: api.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: HK_113 TG@peekfun, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
+  - {name: HK_114 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: HK_115 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: HK_116 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: HK_117 TG@peekfun, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, skip-cert-verify: true, udp: true}
+  - {name: HK_118 TG@peekfun, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: HK_119 TG@peekfun, server: api.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: HK_120 TG@peekfun, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
+  - {name: SG_142 TG@peekfun, server: 206.189.156.88, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, skip-cert-verify: true, udp: true}
+  - {name: SG_143 TG@peekfun, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: SG_144 TG@peekfun, server: s69.s2022.xyz, port: 30661, type: trojan, password: 7d46f885-c7e4-30d4-8a00-36aa6530b0cf, skip-cert-verify: true, udp: true}
+  - {name: SG_145 TG@peekfun, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 97fdf760-7bbf-11eb-8e14-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: SG_146 TG@peekfun, server: s244.s2022.xyz, port: 30300, type: trojan, password: 44742458-ae53-3490-aeb6-a1a23d54c2be, skip-cert-verify: true, udp: true}
+  - {name: SG_147 TG@peekfun, server: s245.s2022.xyz, port: 32686, type: trojan, password: b4cd9d4f-8e00-3eba-8693-aaf6bdca8079, skip-cert-verify: true, udp: true}
+  - {name: SG_148 TG@peekfun, server: 206.189.156.88, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: SG_149 TG@peekfun, server: 165.22.53.6, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: SG_150 TG@peekfun, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: SG_151 TG@peekfun, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: TW_152 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: TW_153 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: TW_154 TG@peekfun, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: TW_155 TG@peekfun, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: TW_156 TG@peekfun, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true, udp: true}
+  - {name: US_157 TG@peekfun, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: US_158 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: US_159 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: US_160 TG@peekfun, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
+  - {name: US_161 TG@peekfun, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
+  - {name: US_162 TG@peekfun, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US_163 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: US_164 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: US_165 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US_166 TG@peekfun, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, skip-cert-verify: true, udp: true}
+  - {name: US_167 TG@peekfun, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, skip-cert-verify: true, udp: true}
+  - {name: US_168 TG@peekfun, server: www.anlocl.gq, port: 30521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
+  - {name: US_169 TG@peekfun, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: true, udp: true}
+  - {name: US_170 TG@peekfun, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, skip-cert-verify: true, udp: true}
+  - {name: US_171 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US_172 TG@peekfun, server: www.anlocl.gq, port: 20521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
+  - {name: US_173 TG@peekfun, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: US_174 TG@peekfun, server: s228.s2022.xyz, port: 42406, type: trojan, password: 3b43ffda-8b5c-3480-87f9-d4b069d7457a, skip-cert-verify: true, udp: true}
+  - {name: US_175 TG@peekfun, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, skip-cert-verify: true, udp: true}
+  - {name: US_176 TG@peekfun, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: true, udp: true}
+  - {name: US_177 TG@peekfun, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US_178 TG@peekfun, server: a2.centaur.network, port: 8081, type: trojan, password: cdcf03f6-5326-4496-a1d1-03bb098ad56f, skip-cert-verify: true, udp: true}
+  - {name: US_179 TG@peekfun, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US_180 TG@peekfun, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
+  - {name: US_181 TG@peekfun, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, skip-cert-verify: true, udp: true}
+  - {name: US_182 TG@peekfun, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: US_183 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US_184 TG@peekfun, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_185 TG@peekfun, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, skip-cert-verify: true, udp: true}
+  - {name: US_186 TG@peekfun, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_187 TG@peekfun, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: US_188 TG@peekfun, server: xioix.gq, port: 443, type: trojan, password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -133,44 +120,39 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -200,44 +182,39 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -267,43 +244,38 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -333,43 +305,38 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -399,43 +366,38 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -465,6 +427,9 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -487,38 +452,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_105 TG@peekfun
-      - HK_106 TG@peekfun
-      - HK_107 TG@peekfun
-      - HK_108 TG@peekfun
-      - HK_109 TG@peekfun
-      - HK_110 TG@peekfun
-      - HK_111 TG@peekfun
       - HK_112 TG@peekfun
       - HK_113 TG@peekfun
-      - SG_134 TG@peekfun
-      - SG_135 TG@peekfun
-      - SG_136 TG@peekfun
-      - SG_137 TG@peekfun
-      - SG_138 TG@peekfun
-      - SG_139 TG@peekfun
-      - SG_140 TG@peekfun
-      - SG_141 TG@peekfun
+      - HK_114 TG@peekfun
+      - HK_115 TG@peekfun
+      - HK_116 TG@peekfun
+      - HK_117 TG@peekfun
+      - HK_118 TG@peekfun
+      - HK_119 TG@peekfun
+      - HK_120 TG@peekfun
       - SG_142 TG@peekfun
       - SG_143 TG@peekfun
-      - TW_144 TG@peekfun
-      - TW_145 TG@peekfun
-      - TW_146 TG@peekfun
-      - TW_147 TG@peekfun
-      - TW_148 TG@peekfun
-      - US_149 TG@peekfun
-      - US_150 TG@peekfun
-      - US_151 TG@peekfun
-      - US_152 TG@peekfun
-      - US_153 TG@peekfun
-      - US_154 TG@peekfun
-      - US_155 TG@peekfun
-      - US_156 TG@peekfun
+      - SG_144 TG@peekfun
+      - SG_145 TG@peekfun
+      - SG_146 TG@peekfun
+      - SG_147 TG@peekfun
+      - SG_148 TG@peekfun
+      - SG_149 TG@peekfun
+      - SG_150 TG@peekfun
+      - SG_151 TG@peekfun
+      - TW_152 TG@peekfun
+      - TW_153 TG@peekfun
+      - TW_154 TG@peekfun
+      - TW_155 TG@peekfun
+      - TW_156 TG@peekfun
       - US_157 TG@peekfun
       - US_158 TG@peekfun
       - US_159 TG@peekfun
@@ -548,6 +505,9 @@ proxy-groups:
       - US_183 TG@peekfun
       - US_184 TG@peekfun
       - US_185 TG@peekfun
+      - US_186 TG@peekfun
+      - US_187 TG@peekfun
+      - US_188 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
