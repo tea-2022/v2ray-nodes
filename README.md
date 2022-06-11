@@ -51,9 +51,7 @@ trojan节点订阅地址
 - 有效节点数量保持在数十个。
 - 配置文件在线地址：
 - https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/master/clash.yaml
-##### 注意：有部分窝友反馈，配置文件更新错误。这一般都是由于配置中节点全部失效导致的。
-##### 解释：在默认规则中github网址流量经由代理；备用地址“jsdelivr.net”为海外ip域名，默认也是走代理。
-##### 解决：将“jsdelivr.net”添加至非代理规则中。具体操作请参照：[点击访问](https://www.huwo.club/posts/clash_bypass.html)
+##### 注意：自定义网址或IP走代理还是非代理通道的方法请参考：[点击访问](https://www.huwo.club/posts/clash_bypass.html)
 
 - v2ray for windows
 - https://dwz.huwo.club/711d29
