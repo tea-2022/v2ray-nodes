@@ -11,16 +11,16 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 
 #### 节点订阅（能用github原地址的，尽量用原地址。）
 综合节点订阅地址
-+ ([https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md](https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/proxy.md))
++ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/proxy.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/proxy.md))
 
 ss节点订阅地址
-+ ([https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md](https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/ss.md))
++ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/ss.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/ss.md))
 
 vmess节点订阅地址
-+ ([https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md](https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/vmess.md))
++ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/vmess.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/vmess.md))
 
 trojan节点订阅地址
-+ ([https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md](https://fastly.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md))
++ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/trojan.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/trojan.md))
 
 #### 适用APP
 
