@@ -11,16 +11,16 @@ clash,v2ray,shadowrocket（小火箭）节点订阅。重点clash项目，因为
 
 #### 节点订阅（能用github原地址的，尽量用原地址。）
 综合节点订阅地址
-+ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/proxy.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/proxy.md))
++ ([https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/proxy.md](https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/proxy.md))
 
 ss节点订阅地址
-+ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/ss.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/ss.md))
++ ([https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/ss.md](https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/ss.md))
 
 vmess节点订阅地址
-+ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/vmess.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/vmess.md))
++ ([https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/vmess.md](https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/vmess.md))
 
 trojan节点订阅地址
-+ ([https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/trojan.md](https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/trojan.md))
++ ([https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/trojan.md](https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/trojan.md))
 
 #### 适用APP
 
@@ -50,7 +50,7 @@ trojan节点订阅地址
 #### <font color=red>clash专区</font>
 - 有效节点数量保持在数十个。
 - 配置文件在线地址：
-- https://raw.githubusercontents.com/colatiger/v2ray-nodes/master/master/clash.yaml
+- https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/master/clash.yaml
 ##### 注意：自定义网址或IP走代理还是非代理通道的方法请参考：[点击访问](https://www.huwo.club/posts/clash_bypass.html)
 
 - v2ray for windows
