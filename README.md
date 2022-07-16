@@ -26,7 +26,7 @@ https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c
 - 访问密码：7728
 
 #### 扫码领红包
-![扫码领红包](https://bafybeidpetq6hu3mjxov7jipcsw4qdweh7jccfgitjrxholzpfeddxz7jq.ipfs.dweb.link/微信图片_20220716112936.png =353x512)
+<img src="https://bafybeidpetq6hu3mjxov7jipcsw4qdweh7jccfgitjrxholzpfeddxz7jq.ipfs.dweb.link/微信图片_20220716112936.png" width="353px">
 
 #### 联系我们
 - 电报群 https://t.me/hwgfw
