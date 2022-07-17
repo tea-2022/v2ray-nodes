@@ -22,46 +22,46 @@
 #### v2ray最新版
 v2ray for linux 
 - 城通网盘：http://dav.huwo.club/f/308478-611328766-bfb1a4?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/VD4TGohawEn
-v2ray for linux使用教程 
-- http://dav.huwo.club/f/308478-611368727-a551e3?p=7728 （访问密码：7728）
-v2ray for windows 
+- 阿里云盘：https://www.aliyundrive.com/s/VD4TGohawEn  
+v2ray for linux使用教程   
+- http://dav.huwo.club/f/308478-611368727-a551e3?p=7728 （访问密码：7728）  
+v2ray for windows   
 - 城通网盘：http://dav.huwo.club/f/308478-611328737-552e10?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/AprFfnjn3iv
-V2ray for windows 配置教程 
-- http://dav.huwo.club/f/308478-611368728-6590c4?p=7728 （访问密码：7728）
+- 阿里云盘：https://www.aliyundrive.com/s/AprFfnjn3iv  
+V2ray for windows 配置教程   
+- http://dav.huwo.club/f/308478-611368728-6590c4?p=7728 （访问密码：7728）  
 v2ray for 安卓 
 - 城通网盘：http://dav.huwo.club/f/308478-611328754-d76005?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/RfynPJfwqps
+- 阿里云盘：https://www.aliyundrive.com/s/RfynPJfwqps  
 v2ray for 安卓 配置教程 
-- http://dav.huwo.club/f/308478-611368729-aa8bd6?p=7728 （访问密码：7728）
+- http://dav.huwo.club/f/308478-611368729-aa8bd6?p=7728 （访问密码：7728）  
 V2ray for Mac 
 - 城通网盘：http://dav.huwo.club/f/308478-611328757-164fbe?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/4F9bU5HMCjj
+- 阿里云盘：https://www.aliyundrive.com/s/4F9bU5HMCjj  
 V2ray for MAC 配置教程 
-- http://dav.huwo.club/f/308478-611368731-5a497d?p=7728 （访问密码：7728）
+- http://dav.huwo.club/f/308478-611368731-5a497d?p=7728 （访问密码：7728）  
 
 #### clash最新版
 Clash for linux
 - 城通网盘：http://dav.huwo.club/f/308478-611328775-a75cb6?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/8yTfLdvRrbz
+- 阿里云盘：https://www.aliyundrive.com/s/8yTfLdvRrbz   
 clash for Linux 安装使用
-- http://dav.huwo.club/f/308478-611368696-ecb9a0?p=7728 （访问密码：7728）
+- http://dav.huwo.club/f/308478-611368696-ecb9a0?p=7728 （访问密码：7728）   
 Clash for Windows
 - 城通网盘：http://dav.huwo.club/f/308478-611328778-dad1de?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/6QtugUhBg7y
+- 阿里云盘：https://www.aliyundrive.com/s/6QtugUhBg7y   
 Clash for Windows 使用教程
-- http://dav.huwo.club/f/308478-611368700-d0d235?p=7728 （访问密码：7728）
+- http://dav.huwo.club/f/308478-611368700-d0d235?p=7728 （访问密码：7728）   
 Clash for 安卓
 - 城通网盘：http://dav.huwo.club/f/308478-611328769-cdc3ca?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/SvnqE7nWh6J
+- 阿里云盘：https://www.aliyundrive.com/s/SvnqE7nWh6J    
 Clash for 安卓 使用教程
-- http://dav.huwo.club/f/308478-611368695-705470?p=7728 （访问密码：7728）
+- http://dav.huwo.club/f/308478-611368695-705470?p=7728 （访问密码：7728）   
 Clash for Mac
 - 城通网盘：http://dav.huwo.club/f/308478-611328790-234c72?p=7728 （访问密码：7728）
-- 阿里云盘：https://www.aliyundrive.com/s/4uks34KLcmf
+- 阿里云盘：https://www.aliyundrive.com/s/4uks34KLcmf    
 Clash for Mac 使用教程
-- http://dav.huwo.club/f/308478-611368702-30fcc9?p=7728 （访问密码：7728）
+- http://dav.huwo.club/f/308478-611368702-30fcc9?p=7728 （访问密码：7728）   
 
 #### 迷雾通最新版（免费稳定翻墙软件，不限时、稳定，完全满足日常使用）
 geph for linux64
