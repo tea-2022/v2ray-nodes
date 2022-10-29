@@ -11,7 +11,7 @@ clash节点配置文件：https://proxy.huwo.club/huwo.yaml
 - [点击下载](https://url78.ctfile.com/f/308478-705508788-70be5b?p=7728) (访问密码: 7728)   
 #### clash windows版   
 - [点击下载](https://url78.ctfile.com/f/308478-705508872-3c0b12?p=7728) (访问密码: 7728)   
-#### Clash+ for Android使用教程   
+#### Clash for Android使用教程   
 - [点击查阅](https://url78.ctfile.com/f/308478-611368695-705470?p=7728) (访问密码: 7728)   
 #### clash for Linux安装使用   
 - [点击查阅](https://url78.ctfile.com/f/308478-611368696-ecb9a0?p=7728) (访问密码: 7728)   
@@ -31,6 +31,8 @@ clash节点配置文件：https://proxy.huwo.club/huwo.yaml
 #### 迷雾通windows版   
 - [点击下载](https://url78.ctfile.com/f/308478-705537092-ab9f78?p=7728) (访问密码: 7728)   
 
+#### 暂时删除了ss，vmess节点，个人感觉有clash足够了。如果有人需求的话，请留言或给我发邮箱！   
 
 ### 联系我们：
 - 电报群 https://t.me/hwgfw
+- 邮箱：huwo2020@qq.com
