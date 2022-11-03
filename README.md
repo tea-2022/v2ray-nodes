@@ -1,7 +1,7 @@
 ### 节点订阅
-clash节点配置文件：https://proxy.huwo.club/huwo_clash.yaml
-shadowrocket节点配置文件：https://proxy.huwo.club/huwo_shadowrocket.md
-v2ray节点配置文件：https://proxy.huwo.club/huwo_v2ray.md   
+- clash节点配置文件：https://proxy.huwo.club/huwo_clash.yaml   
+- shadowrocket节点配置文件：https://proxy.huwo.club/huwo_shadowrocket.md   
+- v2ray节点配置文件：https://proxy.huwo.club/huwo_v2ray.md   
 精选中国大陆中转，台湾，香港，日本，加拿大节点，每4小时更新一次。  
 
 
