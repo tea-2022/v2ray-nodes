@@ -1,5 +1,5 @@
 ### 节点订阅
-- [点击访问](https://proxy.huwo.club/notice.html)  
+- [点击访问](https://proxy.huwo.club)  
 
 
 ### 软件下载 
